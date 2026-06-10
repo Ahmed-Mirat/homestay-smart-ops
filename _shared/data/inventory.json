@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "name": "矿泉水",
+      "qty": 8,
+      "unit": "箱",
+      "threshold": 5
+    },
+    {
+      "name": "垃圾袋",
+      "qty": 15,
+      "unit": "卷",
+      "threshold": 5
+    },
+    {
+      "name": "洗手液",
+      "qty": 3,
+      "unit": "瓶",
+      "threshold": 5
+    }
+  ],
+  "log": [
+    {
+      "time": "2026-06-10 16:03",
+      "type": "入库",
+      "name": "矿泉水",
+      "qty": 10,
+      "unit": "箱",
+      "before": 0,
+      "after": 10,
+      "note": "夏季补货"
+    },
+    {
+      "time": "2026-06-10 16:03",
+      "type": "入库",
+      "name": "垃圾袋",
+      "qty": 20,
+      "unit": "卷",
+      "before": 0,
+      "after": 20,
+      "note": ""
+    },
+    {
+      "time": "2026-06-10 16:03",
+      "type": "入库",
+      "name": "洗手液",
+      "qty": 3,
+      "unit": "瓶",
+      "before": 0,
+      "after": 3,
+      "note": ""
+    },
+    {
+      "time": "2026-06-10 16:03",
+      "type": "出库",
+      "name": "矿泉水",
+      "qty": 2,
+      "unit": "箱",
+      "before": 10,
+      "after": 8,
+      "note": "301退房补充"
+    },
+    {
+      "time": "2026-06-10 16:03",
+      "type": "出库",
+      "name": "垃圾袋",
+      "qty": 5,
+      "unit": "卷",
+      "before": 20,
+      "after": 15,
+      "note": ""
+    }
+  ],
+  "thresholds": {
+    "default": 5
+  }
+}
