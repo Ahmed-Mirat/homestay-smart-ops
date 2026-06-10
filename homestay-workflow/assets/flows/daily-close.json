@@ -1,0 +1,52 @@
+{
+  "name": "日终流程",
+  "version": "1.0",
+  "description": "每日营业结束后的汇总和次日准备",
+  "trigger": {
+    "dialog": ["日终", "今天结束了", "收工"],
+    "cron": "0 22 * * *"
+  },
+  "steps": [
+    {
+      "id": 1,
+      "name": "今日运营回顾",
+      "action": "call_skill",
+      "skill": "homestay-report",
+      "operation": "daily_summary",
+      "description": "汇总今日入住/退房/订单/营收数据"
+    },
+    {
+      "id": 2,
+      "name": "检查待处理事项",
+      "action": "check_pending",
+      "items": [
+        "未确认的订单",
+        "未回复的客户消息",
+        "未完成的保洁任务",
+        "未处理的投诉"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "生成明日待办",
+      "action": "generate_todo",
+      "source": "_shared/data/orders.json",
+      "logic": "筛选明日入住和退房订单，生成待办清单"
+    },
+    {
+      "id": 4,
+      "name": "房态一致性检查",
+      "action": "call_skill",
+      "skill": "homestay-sync",
+      "operation": "check_consistency",
+      "description": "快速检查各平台房态是否一致"
+    },
+    {
+      "id": 5,
+      "name": "输出日终摘要",
+      "action": "output_summary",
+      "template": "daily_close_summary",
+      "notify": true
+    }
+  ]
+}

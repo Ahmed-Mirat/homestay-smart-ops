@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "completed": false,
+  "currentStep": 0,
+  "totalSteps": 5,
+  "steps": {
+    "1_basic_info": { "status": "pending", "data": null },
+    "2_rooms": { "status": "pending", "data": null },
+    "3_rules": { "status": "pending", "data": null },
+    "4_surroundings": { "status": "pending", "data": null },
+    "5_team_notify": { "status": "pending", "data": null }
+  },
+  "startedAt": null,
+  "completedAt": null
+}

@@ -1,0 +1,28 @@
+{
+  "manager": {
+    "question": "管家/负责人称呼和电话？（客人紧急联系用）",
+    "fields": [
+      { "id": "name", "label": "称呼", "example": "王管家", "required": true },
+      { "id": "phone", "label": "电话", "example": "138xxxx1234", "required": true }
+    ]
+  },
+  "cleaners": {
+    "question": "有几位保洁员？分别叫什么？",
+    "instruction": "逐个采集姓名，用于排班派单",
+    "fields": [
+      { "id": "name", "label": "称呼", "example": "小王", "required": true },
+      { "id": "phone", "label": "电话（可选）", "required": false }
+    ],
+    "endSignals": ["就这些", "没了", "没有了"]
+  },
+  "notification": {
+    "question": "是否配置企业微信群通知？（日报/新订单/任务自动推送到群）",
+    "optional": true,
+    "skipSignals": ["跳过", "不需要", "稍后", "以后再说"],
+    "setupSteps": [
+      "在企业微信里创建一个\"运营通知群\"",
+      "群设置 → 群机器人 → 添加 → 起个名字如\"民宿助手\"",
+      "复制Webhook地址（一个https://开头的链接）发给我"
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>民宿运营工作台</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f7fa; color: #1a1a2e; padding: 16px; }
+.workspace { max-width: 800px; margin: 0 auto; }
+.header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+.header h1 { font-size: 20px; font-weight: 600; }
+.header .date { font-size: 13px; color: #666; }
+
+/* KPI Cards */
+.kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px; }
+.kpi-card { background: #fff; border-radius: 12px; padding: 16px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.kpi-card .value { font-size: 24px; font-weight: 700; color: #1a1a2e; margin: 4px 0; }
+.kpi-card .label { font-size: 12px; color: #666; }
+.kpi-card .change { font-size: 11px; margin-top: 4px; }
+.kpi-card .change.up { color: #10b981; }
+.kpi-card .change.down { color: #ef4444; }
+
+/* Sections */
+.section { background: #fff; border-radius: 12px; padding: 16px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.section-title { font-size: 14px; font-weight: 600; margin-bottom: 12px; display: flex; align-items: center; gap: 6px; }
+
+/* Task List */
+.task-item { display: flex; align-items: center; padding: 10px 0; border-bottom: 1px solid #f0f0f0; }
+.task-item:last-child { border-bottom: none; }
+.task-icon { width: 28px; height: 28px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 14px; margin-right: 10px; flex-shrink: 0; }
+.task-icon.clean { background: #dbeafe; }
+.task-icon.checkin { background: #dcfce7; }
+.task-icon.repair { background: #fef3c7; }
+.task-icon.done { background: #f0fdf4; }
+.task-info { flex: 1; }
+.task-info .name { font-size: 13px; font-weight: 500; }
+.task-info .meta { font-size: 11px; color: #888; margin-top: 2px; }
+.task-btn { font-size: 11px; padding: 4px 10px; border-radius: 6px; border: none; cursor: pointer; font-weight: 500; }
+.task-btn.dispatch { background: #3b82f6; color: #fff; }
+.task-btn.view { background: #f3f4f6; color: #374151; }
+
+/* Alerts */
+.alert-item { display: flex; align-items: flex-start; padding: 8px 12px; border-radius: 8px; margin-bottom: 8px; font-size: 12px; }
+.alert-item:last-child { margin-bottom: 0; }
+.alert-item.warning { background: #fef3c7; color: #92400e; }
+.alert-item.error { background: #fee2e2; color: #991b1b; }
+.alert-item.info { background: #dbeafe; color: #1e40af; }
+.alert-item .icon { margin-right: 8px; flex-shrink: 0; }
+
+/* Quick Actions */
+.actions-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+.action-btn { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 14px 8px; border-radius: 10px; border: 1px solid #e5e7eb; background: #fff; cursor: pointer; transition: all 0.15s; }
+.action-btn:hover { background: #f9fafb; border-color: #3b82f6; transform: translateY(-1px); }
+.action-btn .icon { font-size: 20px; }
+.action-btn .label { font-size: 11px; color: #374151; font-weight: 500; }
+
+/* Empty State */
+.empty-state { text-align: center; padding: 40px 20px; color: #9ca3af; }
+.empty-state .emoji { font-size: 40px; margin-bottom: 12px; }
+.empty-state .msg { font-size: 14px; margin-bottom: 16px; }
+.empty-state .setup-btn { padding: 10px 24px; background: #3b82f6; color: #fff; border: none; border-radius: 8px; font-size: 14px; cursor: pointer; }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body { background: #0f172a; color: #e2e8f0; }
+  .kpi-card, .section { background: #1e293b; box-shadow: 0 1px 3px rgba(0,0,0,0.3); }
+  .kpi-card .label { color: #94a3b8; }
+  .kpi-card .value { color: #f1f5f9; }
+  .task-item { border-color: #334155; }
+  .task-info .meta { color: #64748b; }
+  .task-btn.view { background: #334155; color: #e2e8f0; }
+  .action-btn { background: #1e293b; border-color: #334155; }
+  .action-btn:hover { background: #334155; }
+  .action-btn .label { color: #e2e8f0; }
+}
+</style>
+</head>
+<body>
+<div class="workspace">
+  <div class="header">
+    <h1 id="title">🏠 民宿运营工作台</h1>
+    <span class="date" id="dateDisplay"></span>
+  </div>
+
+  <!-- KPI Row -->
+  <div class="kpi-row" id="kpiRow">
+    <div class="kpi-card"><div class="label">今日营收</div><div class="value" id="kpi-revenue">--</div><div class="change" id="kpi-revenue-change"></div></div>
+    <div class="kpi-card"><div class="label">入住率</div><div class="value" id="kpi-occupancy">--</div><div class="change" id="kpi-occupancy-change"></div></div>
+    <div class="kpi-card"><div class="label">在住房间</div><div class="value" id="kpi-occupied">--</div><div class="change" id="kpi-occupied-change"></div></div>
+    <div class="kpi-card"><div class="label">待处理</div><div class="value" id="kpi-pending">--</div><div class="change" id="kpi-pending-change"></div></div>
+  </div>
+
+  <!-- Today's Tasks -->
+  <div class="section" id="tasksSection">
+    <div class="section-title">📋 今日待办</div>
+    <div id="taskList"></div>
+  </div>
+
+  <!-- Alerts -->
+  <div class="section" id="alertsSection" style="display:none;">
+    <div class="section-title">⚠️ 告警提醒</div>
+    <div id="alertList"></div>
+  </div>
+
+  <!-- Quick Actions -->
+  <div class="section">
+    <div class="section-title">🔘 快捷操作</div>
+    <div class="actions-grid">
+      <div class="action-btn" onclick="sendAction('采集竞品数据')"><span class="icon">📊</span><span class="label">采集竞品</span></div>
+      <div class="action-btn" onclick="sendAction('生成昨日日报')"><span class="icon">📈</span><span class="label">生成日报</span></div>
+      <div class="action-btn" onclick="sendAction('打开排班管理')"><span class="icon">👥</span><span class="label">排班管理</span></div>
+      <div class="action-btn" onclick="sendAction('打开任务看板')"><span class="icon">📋</span><span class="label">任务看板</span></div>
+      <div class="action-btn" onclick="sendAction('检查各平台房态一致性')"><span class="icon">🔄</span><span class="label">房态检查</span></div>
+      <div class="action-btn" onclick="sendAction('查看调价建议')"><span class="icon">💰</span><span class="label">调价建议</span></div>
+      <div class="action-btn" onclick="sendAction('全平台关房')"><span class="icon">🚫</span><span class="label">关房</span></div>
+      <div class="action-btn" onclick="sendAction('打开设置向导')"><span class="icon">⚙️</span><span class="label">设置</span></div>
+    </div>
+  </div>
+
+  <!-- Empty State (shown when no data) -->
+  <div class="empty-state" id="emptyState" style="display:none;">
+    <div class="emoji">🏨</div>
+    <div class="msg">欢迎使用民宿智能运营助手！<br>完成设置向导后即可看到运营数据。</div>
+    <button class="setup-btn" onclick="sendAction('开始设置')">开始设置</button>
+  </div>
+</div>
+
+<script>
+// 从Agent传入的数据
+const data = window.__WIDGET_DATA__ || {};
+
+// 初始化
+function init() {
+  document.getElementById('dateDisplay').textContent = new Date().toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', weekday: 'long' });
+
+  if (!data || (!data.kpi && !data.tasks)) {
+    document.getElementById('emptyState').style.display = 'block';
+    document.getElementById('kpiRow').style.display = 'none';
+    document.getElementById('tasksSection').style.display = 'none';
+    return;
+  }
+
+  if (data.homestayName) {
+    document.getElementById('title').textContent = `🏠 ${data.homestayName}`;
+  }
+
+  renderKPI(data.kpi || {});
+  renderTasks(data.tasks || []);
+  renderAlerts(data.alerts || []);
+}
+
+function renderKPI(kpi) {
+  setKPI('revenue', kpi.revenue ? `¥${kpi.revenue}` : '--', kpi.revenueChange);
+  setKPI('occupancy', kpi.occupancy ? `${kpi.occupancy}%` : '--', kpi.occupancyChange);
+  setKPI('occupied', kpi.occupied ?? '--', null);
+  setKPI('pending', kpi.pending ?? '--', null);
+}
+
+function setKPI(id, value, change) {
+  document.getElementById(`kpi-${id}`).textContent = value;
+  const changeEl = document.getElementById(`kpi-${id}-change`);
+  if (change && changeEl) {
+    const isUp = change > 0;
+    changeEl.textContent = `${isUp ? '↑' : '↓'} ${Math.abs(change)}%`;
+    changeEl.className = `change ${isUp ? 'up' : 'down'}`;
+  }
+}
+
+function renderTasks(tasks) {
+  const list = document.getElementById('taskList');
+  if (tasks.length === 0) {
+    list.innerHTML = '<div style="text-align:center;padding:20px;color:#9ca3af;font-size:13px;">✅ 今日暂无待办任务</div>';
+    return;
+  }
+  list.innerHTML = tasks.map(task => {
+    const iconClass = task.type === 'clean' ? 'clean' : task.type === 'checkin' ? 'checkin' : task.type === 'repair' ? 'repair' : 'done';
+    const icons = { clean: '🧹', checkin: '📋', repair: '🔧', done: '✅' };
+    const btnHtml = task.status === 'pending'
+      ? `<button class="task-btn dispatch" onclick="sendAction('派发任务: ${task.name}')">派发</button>`
+      : task.status === 'in_progress'
+      ? `<span style="font-size:11px;color:#f59e0b;">进行中</span>`
+      : `<span style="font-size:11px;color:#10b981;">✅已完成</span>`;
+    return `<div class="task-item">
+      <div class="task-icon ${iconClass}">${icons[task.type] || '📋'}</div>
+      <div class="task-info"><div class="name">${task.name}</div><div class="meta">${task.assignee || ''} ${task.time || ''}</div></div>
+      ${btnHtml}
+    </div>`;
+  }).join('');
+}
+
+function renderAlerts(alerts) {
+  if (alerts.length === 0) return;
+  const section = document.getElementById('alertsSection');
+  section.style.display = 'block';
+  const list = document.getElementById('alertList');
+  list.innerHTML = alerts.map(a => {
+    const level = a.level || 'info';
+    const icons = { warning: '⚠️', error: '🚨', info: 'ℹ️' };
+    return `<div class="alert-item ${level}"><span class="icon">${icons[level]}</span>${a.message}</div>`;
+  }).join('');
+}
+
+function sendAction(action) {
+  if (window.sendToAgent) {
+    window.sendToAgent(JSON.stringify({ action }));
+  }
+}
+
+init();
+</script>
+</body>
+</html>

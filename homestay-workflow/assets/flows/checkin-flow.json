@@ -1,0 +1,65 @@
+{
+  "name": "入住准备",
+  "version": "1.0",
+  "description": "新订单确认后的入住准备完整流程",
+  "trigger": {
+    "dialog": ["入住流程", "准备入住", "明天有客人入住"],
+    "cron": "0 16 * * *",
+    "event": "new_order_confirmed"
+  },
+  "condition": {
+    "check": "tomorrow_has_checkin",
+    "dataSource": "_shared/data/orders.json",
+    "description": "检查明日是否有入住订单"
+  },
+  "steps": [
+    {
+      "id": 1,
+      "name": "确认订单信息",
+      "action": "read_data",
+      "source": "_shared/data/orders.json",
+      "filter": "checkIn == tomorrow",
+      "output": "展示客人姓名、入住时间、房型、特殊需求"
+    },
+    {
+      "id": 2,
+      "name": "房间准备清单",
+      "action": "generate_checklist",
+      "items": [
+        "保洁任务：全面清洁 + 布草更换",
+        "物品检查：洗漱用品/毛巾/拖鞋/矿泉水",
+        "设施检查：空调/热水器/WiFi/门锁",
+        "特殊准备：根据客人需求"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "生成入住指引",
+      "action": "call_skill",
+      "skill": "homestay-guest",
+      "template": "checkin_guide",
+      "description": "调用guest Skill生成个性化入住指引文本"
+    },
+    {
+      "id": 4,
+      "name": "通知保洁",
+      "action": "notify",
+      "target": "housekeeper",
+      "template": "cleaning_task",
+      "content": "{{roomNumber}} 需在 {{checkinDate}} {{checkinTime}} 前完成清洁",
+      "optional": true
+    },
+    {
+      "id": 5,
+      "name": "确认房态",
+      "action": "call_skill",
+      "skill": "homestay-sync",
+      "operation": "check_room_closed",
+      "description": "确认该房间在各平台已关闭售卖"
+    }
+  ],
+  "completionAction": {
+    "notify": "管家",
+    "message": "{{roomType}} 入住准备完成，等待客人到达"
+  }
+}

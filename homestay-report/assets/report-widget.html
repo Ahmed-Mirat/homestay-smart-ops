@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>经营报表</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f7fa; color: #1a1a2e; padding: 16px; }
+.report { max-width: 800px; margin: 0 auto; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.header h2 { font-size: 18px; }
+.header .period { font-size: 12px; color: #6b7280; background: #f3f4f6; padding: 4px 12px; border-radius: 8px; }
+
+.kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px; }
+.kpi { background: #fff; border-radius: 12px; padding: 14px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.kpi .value { font-size: 22px; font-weight: 700; margin: 4px 0; }
+.kpi .label { font-size: 11px; color: #6b7280; }
+.kpi .change { font-size: 11px; margin-top: 2px; }
+.kpi .change.up { color: #10b981; }
+.kpi .change.down { color: #ef4444; }
+
+.chart-section { background: #fff; border-radius: 12px; padding: 16px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.chart-section h3 { font-size: 14px; font-weight: 600; margin-bottom: 12px; }
+.chart-container { position: relative; height: 200px; }
+
+.channel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 16px; }
+.channel-card { background: #fff; border-radius: 10px; padding: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.channel-card .platform { font-size: 12px; color: #6b7280; margin-bottom: 4px; }
+.channel-card .amount { font-size: 16px; font-weight: 700; }
+.channel-card .pct { font-size: 11px; color: #9ca3af; }
+
+.alert-section { background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.alert-item { padding: 8px 12px; border-radius: 8px; margin-bottom: 8px; font-size: 12px; display: flex; align-items: center; gap: 8px; }
+.alert-item.warning { background: #fef3c7; color: #92400e; }
+.alert-item.good { background: #dcfce7; color: #065f46; }
+
+.actions { margin-top: 16px; display: flex; gap: 10px; }
+.btn { padding: 8px 16px; border-radius: 8px; border: none; cursor: pointer; font-size: 12px; font-weight: 500; }
+.btn-primary { background: #3b82f6; color: #fff; }
+.btn-ghost { background: transparent; color: #3b82f6; border: 1px solid #3b82f6; }
+
+.empty { text-align: center; padding: 60px 20px; color: #9ca3af; }
+.empty .icon { font-size: 48px; margin-bottom: 12px; }
+
+@media (prefers-color-scheme: dark) {
+  body { background: #0f172a; color: #e2e8f0; }
+  .kpi, .chart-section, .channel-card, .alert-section { background: #1e293b; }
+  .kpi .label { color: #94a3b8; }
+  .header .period { background: #334155; color: #94a3b8; }
+}
+</style>
+</head>
+<body>
+<div class="report">
+  <div class="header">
+    <h2>📊 经营报表</h2>
+    <span class="period" id="periodLabel"></span>
+  </div>
+
+  <div id="content">
+    <div class="kpi-grid" id="kpiGrid"></div>
+    <div class="chart-section">
+      <h3>📈 近7天趋势</h3>
+      <div class="chart-container"><canvas id="trendChart"></canvas></div>
+    </div>
+    <div class="chart-section">
+      <h3>🏪 渠道分布</h3>
+      <div class="channel-grid" id="channelGrid"></div>
+    </div>
+    <div class="alert-section" id="alertSection">
+      <h3 style="font-size:14px;font-weight:600;margin-bottom:12px;">💡 数据洞察</h3>
+      <div id="alertList"></div>
+    </div>
+    <div class="actions">
+      <button class="btn btn-primary" onclick="sendAction('刷新报表数据')">刷新数据</button>
+      <button class="btn btn-ghost" onclick="sendAction('生成本周周报')">生成周报</button>
+    </div>
+  </div>
+
+  <div class="empty" id="emptyState" style="display:none;">
+    <div class="icon">📊</div>
+    <p>暂无经营数据<br>完成OTA平台授权后即可自动采集</p>
+    <button class="btn btn-primary" style="margin-top:16px;" onclick="sendAction('开始授权OTA平台')">去授权</button>
+  </div>
+</div>
+
+<script>
+const data = window.__WIDGET_DATA__ || {};
+
+function init() {
+  if (!data.kpi) {
+    document.getElementById('content').style.display = 'none';
+    document.getElementById('emptyState').style.display = 'block';
+    return;
+  }
+
+  document.getElementById('periodLabel').textContent = data.period || '近7天';
+  renderKPI();
+  renderTrend();
+  renderChannels();
+  renderAlerts();
+}
+
+function renderKPI() {
+  const kpis = [
+    { label: '总营收', value: `¥${data.kpi.revenue || 0}`, change: data.kpi.revenueChange },
+    { label: '平均入住率', value: `${data.kpi.occupancy || 0}%`, change: data.kpi.occupancyChange },
+    { label: 'ADR(平均房价)', value: `¥${data.kpi.adr || 0}`, change: data.kpi.adrChange },
+    { label: 'RevPAR', value: `¥${data.kpi.revpar || 0}`, change: data.kpi.revparChange },
+  ];
+  document.getElementById('kpiGrid').innerHTML = kpis.map(k => {
+    const changeClass = k.change > 0 ? 'up' : k.change < 0 ? 'down' : '';
+    const changeText = k.change ? `${k.change > 0 ? '↑' : '↓'} ${Math.abs(k.change)}%` : '';
+    return `<div class="kpi"><div class="label">${k.label}</div><div class="value">${k.value}</div><div class="change ${changeClass}">${changeText}</div></div>`;
+  }).join('');
+}
+
+function renderTrend() {
+  const ctx = document.getElementById('trendChart');
+  if (!data.trend) return;
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: data.trend.labels || [],
+      datasets: [
+        { label: '营收', data: data.trend.revenue || [], borderColor: '#3b82f6', tension: 0.3, yAxisID: 'y' },
+        { label: '入住率%', data: data.trend.occupancy || [], borderColor: '#10b981', tension: 0.3, yAxisID: 'y1' }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      scales: { y: { position: 'left' }, y1: { position: 'right', max: 100 } },
+      plugins: { legend: { position: 'top' } }
+    }
+  });
+}
+
+function renderChannels() {
+  const channels = data.channels || [];
+  document.getElementById('channelGrid').innerHTML = channels.map(c =>
+    `<div class="channel-card"><div class="platform">${c.name}</div><div class="amount">¥${c.revenue}</div><div class="pct">${c.percentage}%</div></div>`
+  ).join('');
+}
+
+function renderAlerts() {
+  const alerts = data.alerts || [];
+  if (alerts.length === 0) {
+    document.getElementById('alertList').innerHTML = '<div class="alert-item good">✅ 各项指标正常</div>';
+    return;
+  }
+  document.getElementById('alertList').innerHTML = alerts.map(a =>
+    `<div class="alert-item ${a.level || 'warning'}">${a.level === 'good' ? '✅' : '⚠️'} ${a.message}</div>`
+  ).join('');
+}
+
+function sendAction(action) {
+  if (window.sendToAgent) window.sendToAgent(JSON.stringify({ action }));
+}
+
+init();
+</script>
+</body>
+</html>

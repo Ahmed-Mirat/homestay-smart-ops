@@ -1,0 +1,13 @@
+{
+  "instruction": "逐个采集，每个房型确认后再问下一个",
+  "perRoomFields": [
+    { "id": "type", "question": "房型名称", "example": "山景大床房", "required": true },
+    { "id": "area", "question": "面积", "example": "28㎡", "required": false },
+    { "id": "bed", "question": "床型", "example": "1.8米大床", "required": true },
+    { "id": "price", "question": "日常价格", "example": "528", "required": true },
+    { "id": "feature", "question": "特色/卖点", "example": "独立阳台可看日出", "required": false },
+    { "id": "floor", "question": "楼层/房号", "example": "2楼201", "required": false },
+    { "id": "maxGuests", "question": "最多住几人", "example": "2", "required": false }
+  ],
+  "endSignals": ["就这些", "没了", "没有了", "结束", "好了"]
+}

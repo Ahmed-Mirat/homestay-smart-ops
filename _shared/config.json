@@ -1,0 +1,71 @@
+{
+  "setup": {
+    "completed": false,
+    "wizard": "_shared/setup/SETUP-WIZARD.md"
+  },
+  "homestay": {
+    "name": "",
+    "address": "",
+    "totalRooms": 0,
+    "rooms": [],
+    "_note": "所有字段由安装向导对话填充，商户无需手动编辑此文件"
+  },
+  "platforms": {
+    "ctrip": {
+      "enabled": true,
+      "merchantUrl": "https://ebooking.ctrip.com",
+      "commissionRate": 0.15,
+      "profileDir": "ctrip-merchant",
+      "note": "携程酒店商家后台（ebooking）"
+    },
+    "meituan": {
+      "enabled": true,
+      "merchantUrl": "https://ehotel.meituan.com",
+      "commissionRate": 0.12,
+      "profileDir": "meituan-merchant",
+      "note": "美团酒店商家版"
+    },
+    "fliggy": {
+      "enabled": true,
+      "merchantUrl": "https://merchant.fliggy.com",
+      "commissionRate": 0.10,
+      "profileDir": "fliggy-merchant",
+      "note": "飞猪商家中心"
+    },
+    "qunar": {
+      "enabled": true,
+      "merchantUrl": "https://ehotel.qunar.com",
+      "commissionRate": 0.12,
+      "profileDir": "qunar-merchant",
+      "note": "去哪儿酒店商家后台（eHotel）"
+    },
+    "tongcheng": {
+      "enabled": true,
+      "merchantUrl": "https://e.ly.com",
+      "commissionRate": 0.10,
+      "profileDir": "tongcheng-merchant",
+      "note": "同程酒店商家后台"
+    }
+  },
+  "notification": {
+    "enabled": false,
+    "wechatWork": {
+      "webhookUrl": "",
+      "note": "企业微信群机器人Webhook URL，创建群机器人后填入"
+    }
+  },
+  "scraping": {
+    "consumerProfileDir": "ctrip-consumer",
+    "intervalSeconds": 5,
+    "maxRetries": 2,
+    "timeoutMs": 20000,
+    "headless": true
+  },
+  "operationRules": {
+    "maxPriceChangePerDay": 3,
+    "minOperationIntervalMs": 2000,
+    "screenshotOnEveryOperation": true,
+    "requireConfirmForBatch": true,
+    "maxBatchSize": 10
+  }
+}
