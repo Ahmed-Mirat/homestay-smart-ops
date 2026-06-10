@@ -5,6 +5,7 @@ type: homestay
 description: 民宿智能运营 Skill 套件 —— 8+核心功能无需商家后台。支持携程/美团/飞猪/去哪儿/同程五大OTA平台竞品采集。动态cron调度+AI话术生成+回头客识别+延迟退房定价+问题客户预警。支持自动化安装与商户类型预选机制。
 triggers:
   - 民宿
+  - 公寓
   - 运营
   - 开始设置
   - 初始化
@@ -266,6 +267,65 @@ triggers:
 **变通方式**：商户口述"今天营收2800，入住了5间"，Agent填充报表模板。
 
 行为定义：`homestay-report/SKILL.md`
+
+---
+
+## 🏢 公寓模式功能（apartment-*）
+
+> 以下为公寓/长租场景专属模块，与民宿OTA功能独立。商户首次使用时说"公寓设置"启动向导。
+
+### 9. 房租催缴（apartment-rent）— ✅ 立即可用
+
+**触发**："催缴房租"、"房租催收"、"催缴统计"
+
+- 三档催收：提前提醒(距交租日≤3天) → 到期催收(当天) → 逾期通知(1/3/7天递进)
+- 租客标签(优质🟢/普通🟡/关注🔴)差异化话术
+- 每天09:00自动检查并推送催缴消息到企业微信群
+- 手动标记已缴："标记已缴 张三"
+
+行为定义：`apartment-rent/SKILL.md`
+执行：`node apartment-rent/scripts/rent-reminder.js check|mark [ID]|list`
+
+### 10. 物资出入库记账（apartment-inventory）— ✅ 立即可用
+
+**触发**："入库矿泉水5箱"、"出库垃圾袋3卷"、"库存"、"什么快没了"
+
+- NL指令解析：入库/出库/查库存/低库存告警
+- 库存低于阈值自动推送补货提醒
+- 全流程流水可查
+
+行为定义：`apartment-inventory/SKILL.md`
+执行：`node apartment-inventory/scripts/inventory.js in|out|list|low|log`
+
+### 11. 增值服务推送（apartment-service）— ✅ 立即可用
+
+**触发**："增值服务"、"服务推送"、"查看推送规则"
+
+- 8条内置规则：入住保洁/月度保洁/空调清洗/净水滤芯/暖气检查/家电清洗/续租优惠/退租保洁
+- 按入住时长+季节节点自动匹配
+- 规则可自定义
+
+行为定义：`apartment-service/SKILL.md`
+执行：`node apartment-service/scripts/service-pusher.js check|rules`
+
+### 12. 维修工单Excel导出 — ✅ 立即可用
+
+**触发**："导出工单"、"工单台账"
+
+- 按月导出Excel台账：工单号/类型/房号/描述/负责人/状态/时间/耗时
+- 自动汇总：总计/已完成/超时
+
+执行：`node homestay-workflow/scripts/export-tasks.cjs [YYYY-MM]`
+依赖：`npm install exceljs`
+
+### 公寓定时任务
+
+Cron调度器(`homestay-workflow/scripts/cron-scheduler.js`)已配置：
+| 时间 | 任务 |
+|------|------|
+| 09:00 | 房租催缴检查 `rent-reminder.js check` |
+| 10:00 | 增值服务检查 `service-pusher.js check` |
+| 20:00 | 低库存检查 `inventory.js low` |
 
 ---
 
