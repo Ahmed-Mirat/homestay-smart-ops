@@ -1,0 +1,46 @@
+{
+  "steps": [
+    {
+      "id": "basic",
+      "title": "公寓基本信息",
+      "questions": [
+        {"key": "name", "label": "公寓名称", "example": "阳光公寓"},
+        {"key": "address", "label": "地址", "example": "XX市XX区XX路XX号"},
+        {"key": "total_rooms", "label": "总房间数", "example": "30"},
+        {"key": "manager", "label": "管理员姓名", "example": "王经理"},
+        {"key": "phone", "label": "联系电话", "example": "138xxxx"}
+      ]
+    },
+    {
+      "id": "staff",
+      "title": "员工信息",
+      "questions": [
+        {"key": "repair_staff", "label": "维修人员名单（逗号分隔）", "example": "张师傅,李师傅,刘师傅"},
+        {"key": "clean_staff", "label": "保洁人员名单（逗号分隔）", "example": "王阿姨,陈阿姨"}
+      ]
+    },
+    {
+      "id": "tenants",
+      "title": "租客台账",
+      "questions": [
+        {"key": "import_method", "label": "导入方式", "options": ["逐条录入", "从Excel导入（提供文件路径）"]}
+      ]
+    },
+    {
+      "id": "rules",
+      "title": "运营规则",
+      "questions": [
+        {"key": "rent_early_days", "label": "提前几天提醒交租", "default": "3"},
+        {"key": "inventory_threshold", "label": "库存默认补货阈值", "default": "5"},
+        {"key": "auto_push", "label": "是否自动推送催缴和服务提醒", "default": "是"}
+      ]
+    },
+    {
+      "id": "webhook",
+      "title": "企业微信通知",
+      "questions": [
+        {"key": "webhook_url", "label": "企业微信群机器人Webhook地址", "example": "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxx"}
+      ]
+    }
+  ]
+}

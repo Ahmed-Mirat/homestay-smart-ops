@@ -12,7 +12,8 @@
     "install-browser": "npx playwright install chromium"
   },
   "dependencies": {
-    "playwright": "^1.49.0",
-    "node-cron": "^3.0.3"
+    "exceljs": "^4.4.0",
+    "node-cron": "^3.0.3",
+    "playwright": "^1.49.0"
   }
 }

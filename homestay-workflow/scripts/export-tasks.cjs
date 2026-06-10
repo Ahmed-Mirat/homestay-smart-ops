@@ -7,7 +7,7 @@ const month = process.argv[2] || new Date().toISOString().slice(0, 7);
 
 (async () => {
   try {
-    const ExcelJS = require('exceljs');
+    const ExcelJS = require('../../_shared/node_modules/exceljs');
     const tasks = JSON.parse(fs.readFileSync(TASKS_FILE, 'utf-8') || '[]');
     if (!Array.isArray(tasks) || !tasks.length) { console.log('暂无任务数据'); process.exit(0); }
 
