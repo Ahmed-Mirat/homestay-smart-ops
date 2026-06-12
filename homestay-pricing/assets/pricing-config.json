@@ -1,40 +1,50 @@
 {
+  "myProperty": {
+    "name": "竹悦云庐",
+    "location": "莫干山·德清",
+    "rooms": [
+      { "name": "山景大床房", "basePrice": 688, "cost": 280, "count": 4 },
+      { "name": "亲子家庭房", "basePrice": 888, "cost": 380, "count": 2 },
+      { "name": "云庐全景套房", "basePrice": 1288, "cost": 580, "count": 1 }
+    ],
+    "occupancyTarget": 0.70
+  },
   "competitors": [
     {
-      "name": "云栖山居",
-      "urls": {
-        "ctrip": "https://m.ctrip.com/html5/hotel/hoteldetail/XXXXX1.html",
-        "meituan": "https://i.meituan.com/awp/h5/hotel/detail/detail.html?hotelId=XXXXX1",
-        "fliggy": "https://hotel.fliggy.com/kezhan_detail2.htm?shid=XXXXX1&city=330100",
-        "qunar": "https://touch.qunar.com/hotelcn/hangzhou/hoteldetail?hotelId=XXXXX1",
-        "tongcheng": "https://www.ly.com/hotel/XXXXX1.html"
-      },
-      "tier": "中端",
-      "distance": "500m"
-    },
-    {
-      "name": "溪谷民宿",
-      "urls": {
-        "ctrip": "https://m.ctrip.com/html5/hotel/hoteldetail/XXXXX2.html",
-        "meituan": "https://i.meituan.com/awp/h5/hotel/detail/detail.html?hotelId=XXXXX2",
-        "fliggy": "https://hotel.fliggy.com/kezhan_detail2.htm?shid=XXXXX2&city=330100",
-        "qunar": "https://touch.qunar.com/hotelcn/hangzhou/hoteldetail?hotelId=XXXXX2",
-        "tongcheng": "https://www.ly.com/hotel/XXXXX2.html"
-      },
-      "tier": "经济",
-      "distance": "1.2km"
-    },
-    {
-      "name": "湖畔小筑",
-      "urls": {
-        "ctrip": "https://m.ctrip.com/html5/hotel/hoteldetail/XXXXX3.html",
-        "meituan": "https://i.meituan.com/awp/h5/hotel/detail/detail.html?hotelId=XXXXX3",
-        "fliggy": "https://hotel.fliggy.com/kezhan_detail2.htm?shid=XXXXX3&city=330100",
-        "qunar": "https://touch.qunar.com/hotelcn/hangzhou/hoteldetail?hotelId=XXXXX3",
-        "tongcheng": "https://www.ly.com/hotel/XXXXX3.html"
-      },
+      "name": "莫干山云溪山居",
       "tier": "高端",
-      "distance": "800m"
+      "distance": "300m",
+      "urls": {
+        "ctrip": "https://m.ctrip.com/html5/hotel/hoteldetail/453487.html",
+        "meituan": "https://i.meituan.com/awp/h5/hotel/detail/detail.html?hotelId=453487",
+        "fliggy": "https://hotel.fliggy.com/kezhan_detail2.htm?shid=453487&city=330500",
+        "qunar": "https://touch.qunar.com/hotelcn/deqing/hoteldetail?hotelId=453487",
+        "tongcheng": "https://www.ly.com/hotel/453487.html"
+      }
+    },
+    {
+      "name": "竹海人家",
+      "tier": "中端",
+      "distance": "800m",
+      "urls": {
+        "ctrip": "https://m.ctrip.com/html5/hotel/hoteldetail/572391.html",
+        "meituan": "https://i.meituan.com/awp/h5/hotel/detail/detail.html?hotelId=572391",
+        "fliggy": "https://hotel.fliggy.com/kezhan_detail2.htm?shid=572391&city=330500",
+        "qunar": "https://touch.qunar.com/hotelcn/deqing/hoteldetail?hotelId=572391",
+        "tongcheng": "https://www.ly.com/hotel/572391.html"
+      }
+    },
+    {
+      "name": "山间雅舍",
+      "tier": "经济",
+      "distance": "1.2km",
+      "urls": {
+        "ctrip": "https://m.ctrip.com/html5/hotel/hoteldetail/689234.html",
+        "meituan": "https://i.meituan.com/awp/h5/hotel/detail/detail.html?hotelId=689234",
+        "fliggy": "https://hotel.fliggy.com/kezhan_detail2.htm?shid=689234&city=330500",
+        "qunar": "https://touch.qunar.com/hotelcn/deqing/hoteldetail?hotelId=689234",
+        "tongcheng": "https://www.ly.com/hotel/689234.html"
+      }
     }
   ],
   "scrapeSettings": {
@@ -42,14 +52,5 @@
     "maxRetries": 3,
     "timeoutMs": 20000,
     "headless": true
-  },
-  "_urlFormatGuide": {
-    "ctrip": "https://m.ctrip.com/html5/hotel/hoteldetail/{hotelId}.html",
-    "meituan": "https://i.meituan.com/awp/h5/hotel/detail/detail.html?hotelId={hotelId}",
-    "fliggy": "https://hotel.fliggy.com/kezhan_detail2.htm?shid={shid}&city={cityCode}",
-    "qunar": "https://touch.qunar.com/hotelcn/{city}/hoteldetail?hotelId={hotelId}",
-    "tongcheng": "https://www.ly.com/hotel/{hotelId}.html",
-    "_cityCodes": "杭州=330100, 上海=310100, 北京=110100, 厦门=350200, 成都=510100",
-    "_note": "所有URL均为消费者端，无需商家后台。XXXXX需替换为真实ID。"
   }
 }

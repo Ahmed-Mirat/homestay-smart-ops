@@ -1,0 +1,6679 @@
+[
+  {
+    "scrapeTime": "2026-05-30 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.5",
+        "reviewCount": "304点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥859",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1675",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1245",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-30 08:30:43",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.4",
+        "reviewCount": "319点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥863",
+            "originalPrice": "¥966",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1719",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1238",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-30 08:30:52",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.4",
+        "reviewCount": "169点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥856",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1721",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1233",
+            "originalPrice": "¥1362",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": 1,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-30 08:30:58",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.5",
+        "reviewCount": "177点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥542",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥666",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥831",
+            "originalPrice": "¥1004",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-30 08:30:37",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.7",
+        "reviewCount": "369点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥520",
+            "originalPrice": "¥660",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": 1,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥661",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥796",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-30 08:30:48",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.6",
+        "reviewCount": "435点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥541",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥660",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥812",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-30 08:30:19",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.9",
+        "reviewCount": "419点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥337",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 2,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥478",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-30 08:30:43",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.7",
+        "reviewCount": "432点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥338",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥466",
+            "originalPrice": "¥523",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": 2,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-30 08:30:57",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.6",
+        "reviewCount": "401点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥347",
+            "originalPrice": "¥395",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": 2,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥465",
+            "originalPrice": "¥523",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-30 08:30:27",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 11,
+      "roomsWithPromotions": 7,
+      "roomsWithOriginalPrice": 7,
+      "loginExpiredPlatforms": []
+    }
+  },
+  {
+    "scrapeTime": "2026-05-31 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.8",
+        "reviewCount": "471点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥899",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1716",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1205",
+            "originalPrice": "¥1472",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-31 08:30:16",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.7",
+        "reviewCount": "398点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥883",
+            "originalPrice": "¥1015",
+            "promotions": [
+              "连住优惠"
+            ],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1724",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1158",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-31 08:30:57",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.8",
+        "reviewCount": "424点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥886",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1705",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1206",
+            "originalPrice": "¥1413",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-31 08:30:51",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.7",
+        "reviewCount": "479点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥539",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥649",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥816",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-31 08:30:19",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.8",
+        "reviewCount": "563点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥545",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥641",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥795",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-31 08:30:25",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.3",
+        "reviewCount": "425点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥541",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥672",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥787",
+            "originalPrice": "¥873",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-31 08:30:32",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.3",
+        "reviewCount": "279点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥355",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥469",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 2,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-31 08:30:41",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.5",
+        "reviewCount": "347点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥366",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥476",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-31 08:30:49",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.6",
+        "reviewCount": "570点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥354",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥476",
+            "originalPrice": "¥553",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": 2,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-05-31 08:30:38",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 14,
+      "roomsWithPromotions": 5,
+      "roomsWithOriginalPrice": 5,
+      "loginExpiredPlatforms": []
+    }
+  },
+  {
+    "scrapeTime": "2026-06-01 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.6",
+        "reviewCount": "457点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥784",
+            "originalPrice": "¥888",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1482",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥984",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-01 08:30:59",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.4",
+        "reviewCount": "445点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥808",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1480",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1003",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-01 08:30:21",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.4",
+        "reviewCount": "486点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥791",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1484",
+            "originalPrice": "¥1717",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥986",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-01 08:30:17",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.6",
+        "reviewCount": "232点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥484",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥581",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥661",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-01 08:30:25",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.7",
+        "reviewCount": "423点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥490",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥555",
+            "originalPrice": "¥710",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥656",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-01 08:30:58",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.9",
+        "reviewCount": "558点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥477",
+            "originalPrice": "¥539",
+            "promotions": [
+              "连住优惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥552",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥668",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-01 08:30:25",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.6",
+        "reviewCount": "445点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥308",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥414",
+            "originalPrice": "¥518",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-01 08:30:11",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.4",
+        "reviewCount": "510点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥326",
+            "originalPrice": "¥391",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥425",
+            "originalPrice": "¥515",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-01 08:30:44",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.5",
+        "reviewCount": "521点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥324",
+            "originalPrice": "¥377",
+            "promotions": [
+              "满减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥424",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-01 08:30:17",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 0,
+      "roomsWithPromotions": 8,
+      "roomsWithOriginalPrice": 8,
+      "loginExpiredPlatforms": []
+    }
+  },
+  {
+    "scrapeTime": "2026-06-02 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.3",
+        "reviewCount": "273点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥813",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1491",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥978",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-02 08:30:29",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.5",
+        "reviewCount": "448点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥827",
+            "originalPrice": "¥985",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1474",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥975",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-02 08:30:34",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.3",
+        "reviewCount": "197点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥817",
+            "originalPrice": "¥972",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1453",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥953",
+            "originalPrice": "¥1095",
+            "promotions": [
+              "连住优惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-02 08:30:22",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.9",
+        "reviewCount": "550点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥483",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥542",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥649",
+            "originalPrice": "¥823",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-02 08:30:40",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.9",
+        "reviewCount": "337点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥502",
+            "originalPrice": "¥636",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥544",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥657",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-02 08:30:50",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.6",
+        "reviewCount": "187点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥492",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥561",
+            "originalPrice": "¥704",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥635",
+            "originalPrice": "¥747",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-02 08:30:37",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.5",
+        "reviewCount": "200点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥322",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥403",
+            "originalPrice": "¥506",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-02 08:30:26",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.7",
+        "reviewCount": "153点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥321",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥422",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-02 08:30:34",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.3",
+        "reviewCount": "129点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥327",
+            "originalPrice": "¥390",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥404",
+            "originalPrice": "¥462",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-02 08:30:29",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 0,
+      "roomsWithPromotions": 10,
+      "roomsWithOriginalPrice": 10,
+      "loginExpiredPlatforms": []
+    }
+  },
+  {
+    "scrapeTime": "2026-06-03 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.5",
+        "reviewCount": "310点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥800",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1394",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥940",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-03 08:30:45",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.8",
+        "reviewCount": "417点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥830",
+            "originalPrice": "¥915",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1453",
+            "originalPrice": "¥1663",
+            "promotions": [
+              "连住优惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥931",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-03 08:30:51",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.7",
+        "reviewCount": "457点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥813",
+            "originalPrice": "¥935",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1380",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥947",
+            "originalPrice": "¥1195",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-03 08:30:12",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.3",
+        "reviewCount": "334点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥499",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥538",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥634",
+            "originalPrice": "¥775",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-03 08:30:13",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.6",
+        "reviewCount": "348点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥493",
+            "originalPrice": "¥551",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥558",
+            "originalPrice": "¥621",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥619",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-03 08:30:40",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.3",
+        "reviewCount": "369点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥484",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥548",
+            "originalPrice": "¥687",
+            "promotions": [
+              "连住优惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥634",
+            "originalPrice": "¥717",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-03 08:30:32",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.8",
+        "reviewCount": "446点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥330",
+            "originalPrice": "¥406",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥391",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-03 08:30:54",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.5",
+        "reviewCount": "184点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥331",
+            "originalPrice": "¥393",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥396",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-03 08:30:29",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.7",
+        "reviewCount": "191点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥318",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥406",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-03 08:30:41",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 0,
+      "roomsWithPromotions": 11,
+      "roomsWithOriginalPrice": 11,
+      "loginExpiredPlatforms": []
+    }
+  },
+  {
+    "scrapeTime": "2026-06-04 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.9",
+        "reviewCount": "234点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥782",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1329",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥912",
+            "originalPrice": "¥1182",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-04 08:30:46",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.7",
+        "reviewCount": "211点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥786",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1404",
+            "originalPrice": "¥1804",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥901",
+            "originalPrice": "¥1010",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-04 08:30:41",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.3",
+        "reviewCount": "413点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥827",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1392",
+            "originalPrice": "¥1726",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥935",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-04 08:30:16",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.6",
+        "reviewCount": "323点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥487",
+            "originalPrice": "¥610",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥531",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥627",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-04 08:30:39",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.7",
+        "reviewCount": "389点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥493",
+            "originalPrice": "¥562",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥522",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥611",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-04 08:30:42",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.6",
+        "reviewCount": "566点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥477",
+            "originalPrice": "¥559",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥522",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥616",
+            "originalPrice": "¥698",
+            "promotions": [
+              "满减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-04 08:30:32",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.9",
+        "reviewCount": "162点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥310",
+            "originalPrice": "¥357",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥387",
+            "originalPrice": "¥458",
+            "promotions": [
+              "满减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-04 08:30:55",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.5",
+        "reviewCount": "346点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥309",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥377",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-04 08:30:51",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.4",
+        "reviewCount": "315点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥318",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥389",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-04 08:30:37",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 0,
+      "roomsWithPromotions": 10,
+      "roomsWithOriginalPrice": 10,
+      "loginExpiredPlatforms": []
+    }
+  },
+  {
+    "scrapeTime": "2026-06-05 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.7",
+        "reviewCount": "151点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥894",
+            "originalPrice": "¥1006",
+            "promotions": [
+              "连住优惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1519",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1016",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-05 08:30:23",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.3",
+        "reviewCount": "521点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥905",
+            "originalPrice": "¥1000",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1552",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1062",
+            "originalPrice": "¥1340",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-05 08:30:10",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.5",
+        "reviewCount": "312点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥924",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1494",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1065",
+            "originalPrice": "¥1252",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-05 08:30:39",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.4",
+        "reviewCount": "301点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥550",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥572",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥680",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-05 08:30:18",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.5",
+        "reviewCount": "231点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥534",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥579",
+            "originalPrice": "¥725",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥677",
+            "originalPrice": "¥866",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-05 08:30:45",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.9",
+        "reviewCount": "502点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥536",
+            "originalPrice": "¥664",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥585",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥697",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-05 08:30:20",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.8",
+        "reviewCount": "188点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥355",
+            "originalPrice": "¥409",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥424",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 2,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-05 08:30:27",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.7",
+        "reviewCount": "486点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥345",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥439",
+            "originalPrice": "¥538",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-05 08:30:50",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.8",
+        "reviewCount": "492点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥356",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥430",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-05 08:30:30",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 8,
+      "roomsWithPromotions": 9,
+      "roomsWithOriginalPrice": 9,
+      "loginExpiredPlatforms": []
+    }
+  },
+  {
+    "scrapeTime": "2026-06-06 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.5",
+        "reviewCount": "227点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥853",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1519",
+            "originalPrice": "¥1849",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1019",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-06 08:30:17",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.8",
+        "reviewCount": "482点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥854",
+            "originalPrice": "¥993",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1508",
+            "originalPrice": "¥1733",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1047",
+            "originalPrice": "¥1318",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-06 08:30:51",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.4",
+        "reviewCount": "153点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥856",
+            "originalPrice": "¥1112",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": 1,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1456",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1024",
+            "originalPrice": "¥1151",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-06 08:30:49",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.6",
+        "reviewCount": "206点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥543",
+            "originalPrice": "¥615",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥555",
+            "originalPrice": "¥657",
+            "promotions": [
+              "满减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥708",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-06 08:30:17",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.8",
+        "reviewCount": "146点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥533",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥554",
+            "originalPrice": "¥679",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥716",
+            "originalPrice": "¥798",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-06 08:30:15",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.4",
+        "reviewCount": "171点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥532",
+            "originalPrice": "¥654",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥566",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥705",
+            "originalPrice": "¥799",
+            "promotions": [
+              "连住优惠"
+            ],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-06 08:30:59",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.4",
+        "reviewCount": "361点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥334",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥424",
+            "originalPrice": "¥488",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-06 08:30:33",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.3",
+        "reviewCount": "417点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥341",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥412",
+            "originalPrice": "¥499",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-06 08:30:33",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.3",
+        "reviewCount": "531点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥352",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥418",
+            "originalPrice": "¥530",
+            "promotions": [
+              "连住优惠"
+            ],
+            "remainingRooms": 1,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-06 08:30:12",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 10,
+      "roomsWithPromotions": 15,
+      "roomsWithOriginalPrice": 15,
+      "loginExpiredPlatforms": []
+    }
+  },
+  {
+    "scrapeTime": "2026-06-07 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.4",
+        "reviewCount": "323点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥857",
+            "originalPrice": "¥1085",
+            "promotions": [
+              "满减"
+            ],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1465",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1044",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-07 08:30:32",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.8",
+        "reviewCount": "302点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥845",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1498",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1081",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-07 08:30:41",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.7",
+        "reviewCount": "427点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥831",
+            "originalPrice": "¥916",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1498",
+            "originalPrice": "¥1693",
+            "promotions": [
+              "满减"
+            ],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1049",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-07 08:30:46",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.4",
+        "reviewCount": "429点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥509",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥545",
+            "originalPrice": "¥677",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥703",
+            "originalPrice": "¥869",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-07 08:30:29",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.4",
+        "reviewCount": "378点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥512",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥547",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥708",
+            "originalPrice": "¥809",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-07 08:30:42",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.7",
+        "reviewCount": "526点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥493",
+            "originalPrice": "¥641",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥552",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥721",
+            "originalPrice": "¥857",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-07 08:30:50",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.7",
+        "reviewCount": "236点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥338",
+            "originalPrice": "¥428",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": 2,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥418",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-07 08:30:37",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.4",
+        "reviewCount": "148点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥330",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥417",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-07 08:30:25",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.8",
+        "reviewCount": "411点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥323",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥418",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-07 08:30:24",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 13,
+      "roomsWithPromotions": 9,
+      "roomsWithOriginalPrice": 9,
+      "loginExpiredPlatforms": []
+    }
+  },
+  {
+    "scrapeTime": "2026-06-08 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.5",
+        "reviewCount": "546点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥691",
+            "originalPrice": "¥881",
+            "promotions": [
+              "满减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1279",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥982",
+            "originalPrice": "¥1116",
+            "promotions": [
+              "连住优惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-08 08:30:58",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.9",
+        "reviewCount": "386点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥707",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1263",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥986",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-08 08:30:20",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.3",
+        "reviewCount": "268点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥709",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1306",
+            "originalPrice": "¥1520",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥964",
+            "originalPrice": "¥1189",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-08 08:30:37",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.7",
+        "reviewCount": "205点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥418",
+            "originalPrice": "¥526",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥479",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥661",
+            "originalPrice": "¥859",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-08 08:30:34",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.7",
+        "reviewCount": "214点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥440",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥499",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥654",
+            "originalPrice": "¥823",
+            "promotions": [
+              "满减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-08 08:30:36",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.6",
+        "reviewCount": "131点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥430",
+            "originalPrice": "¥514",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥486",
+            "originalPrice": "¥587",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥653",
+            "originalPrice": "¥842",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-08 08:30:13",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.5",
+        "reviewCount": "168点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥278",
+            "originalPrice": "¥315",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥353",
+            "originalPrice": "¥416",
+            "promotions": [
+              "满减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-08 08:30:13",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.9",
+        "reviewCount": "349点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥287",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥355",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-08 08:30:40",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.5",
+        "reviewCount": "215点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥287",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥348",
+            "originalPrice": "¥422",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-08 08:30:49",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 0,
+      "roomsWithPromotions": 13,
+      "roomsWithOriginalPrice": 13,
+      "loginExpiredPlatforms": []
+    }
+  },
+  {
+    "scrapeTime": "2026-06-09 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.7",
+        "reviewCount": "159点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥710",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1308",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥981",
+            "originalPrice": "¥1233",
+            "promotions": [
+              "连住优惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-09 08:30:42",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.3",
+        "reviewCount": "426点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥704",
+            "originalPrice": "¥783",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1280",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥985",
+            "originalPrice": "¥1194",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-09 08:30:13",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.9",
+        "reviewCount": "504点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥720",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1317",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1015",
+            "originalPrice": "¥1234",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-09 08:30:15",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.7",
+        "reviewCount": "535点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥418",
+            "originalPrice": "¥487",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥509",
+            "originalPrice": "¥563",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥674",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-09 08:30:16",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.8",
+        "reviewCount": "410点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥416",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥496",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥678",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-09 08:30:23",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.5",
+        "reviewCount": "549点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥422",
+            "originalPrice": "¥497",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥504",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥682",
+            "originalPrice": "¥808",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-09 08:30:27",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.4",
+        "reviewCount": "497点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥271",
+            "originalPrice": "¥302",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥370",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-09 08:30:11",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.8",
+        "reviewCount": "220点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥281",
+            "originalPrice": "¥310",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥371",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-09 08:30:21",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.8",
+        "reviewCount": "579点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥273",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥365",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-09 08:30:12",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 0,
+      "roomsWithPromotions": 10,
+      "roomsWithOriginalPrice": 10,
+      "loginExpiredPlatforms": []
+    }
+  },
+  {
+    "scrapeTime": "2026-06-10 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.5",
+        "reviewCount": "437点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥711",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1312",
+            "originalPrice": "¥1572",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1025",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-10 08:30:58",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.8",
+        "reviewCount": "436点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥697",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1316",
+            "originalPrice": "¥1696",
+            "promotions": [
+              "满减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1018",
+            "originalPrice": "¥1174",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-10 08:30:31",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.5",
+        "reviewCount": "253点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥717",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1375",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1002",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-10 08:30:41",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.7",
+        "reviewCount": "175点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥417",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥524",
+            "originalPrice": "¥582",
+            "promotions": [
+              "满减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥686",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-10 08:30:57",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.8",
+        "reviewCount": "355点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥431",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥526",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥700",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-10 08:30:17",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.6",
+        "reviewCount": "247点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥429",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥515",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥684",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-10 08:30:34",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.6",
+        "reviewCount": "346点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥281",
+            "originalPrice": "¥358",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥378",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-10 08:30:51",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.5",
+        "reviewCount": "228点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥278",
+            "originalPrice": "¥351",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥367",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-10 08:30:56",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.6",
+        "reviewCount": "262点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥283",
+            "originalPrice": "¥348",
+            "promotions": [
+              "限时特惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥387",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-10 08:30:25",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 0,
+      "roomsWithPromotions": 7,
+      "roomsWithOriginalPrice": 7,
+      "loginExpiredPlatforms": []
+    }
+  },
+  {
+    "scrapeTime": "2026-06-11 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.6",
+        "reviewCount": "515点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥719",
+            "originalPrice": "¥908",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1426",
+            "originalPrice": "¥1628",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1067",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-11 08:30:50",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.3",
+        "reviewCount": "454点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥708",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1421",
+            "originalPrice": "¥1699",
+            "promotions": [
+              "连住优惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1040",
+            "originalPrice": "¥1250",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-11 08:30:13",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.4",
+        "reviewCount": "556点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥724",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1420",
+            "originalPrice": "¥1828",
+            "promotions": [
+              "连住优惠"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1054",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-11 08:30:47",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.8",
+        "reviewCount": "507点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥430",
+            "originalPrice": "¥541",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥543",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥686",
+            "originalPrice": "¥872",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-11 08:30:23",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.8",
+        "reviewCount": "477点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥423",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥528",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥692",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-11 08:30:54",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.7",
+        "reviewCount": "381点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥436",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥516",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥695",
+            "originalPrice": "¥873",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-11 08:30:28",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.8",
+        "reviewCount": "371点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥276",
+            "originalPrice": "¥334",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥380",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-11 08:30:52",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.9",
+        "reviewCount": "511点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥285",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥394",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-11 08:30:58",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.6",
+        "reviewCount": "529点评",
+        "hotelPromotions": [],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥277",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥390",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-11 08:30:28",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 0,
+      "roomsWithPromotions": 9,
+      "roomsWithOriginalPrice": 9,
+      "loginExpiredPlatforms": []
+    }
+  },
+  {
+    "scrapeTime": "2026-06-12 08:30:00",
+    "results": [
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.4",
+        "reviewCount": "246点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥817",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1626",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1232",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-12 08:30:43",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.9",
+        "reviewCount": "224点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥851",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1632",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1199",
+            "originalPrice": "¥1457",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-12 08:30:55",
+        "status": "success"
+      },
+      {
+        "competitor": "莫干山云溪山居",
+        "competitorTier": "高端",
+        "competitorDistance": "300m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "莫干山云溪山居",
+        "rating": "4.3",
+        "reviewCount": "317点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "山景大床房",
+            "price": "¥850",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "28-32㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "竹韵套房",
+            "price": "¥1694",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "45-50㎡",
+            "bed": "1张2米特大床",
+            "breakfast": "含双早+下午茶",
+            "cancelPolicy": "入住前1天18:00前免费取消"
+          },
+          {
+            "name": "亲子家庭房",
+            "price": "¥1220",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "35-40㎡",
+            "bed": "1张大床+1张单人床",
+            "breakfast": "含三早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-12 08:30:10",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.5",
+        "reviewCount": "354点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥521",
+            "originalPrice": "¥574",
+            "promotions": [
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥614",
+            "originalPrice": "¥683",
+            "promotions": [
+              "连住优惠",
+              "早鸟价"
+            ],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥818",
+            "originalPrice": "¥1043",
+            "promotions": [
+              "闪住"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-12 08:30:42",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.8",
+        "reviewCount": "243点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥498",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 2,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥632",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥800",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-12 08:30:23",
+        "status": "success"
+      },
+      {
+        "competitor": "竹海人家",
+        "competitorTier": "中端",
+        "competitorDistance": "800m",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "竹海人家",
+        "rating": "4.7",
+        "reviewCount": "505点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "标准大床房",
+            "price": "¥499",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 3,
+            "area": "20-25㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天12:00前免费取消"
+          },
+          {
+            "name": "山景双床房",
+            "price": "¥646",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 1,
+            "roomCount": 3,
+            "area": "25-28㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          },
+          {
+            "name": "豪华大床房",
+            "price": "¥801",
+            "originalPrice": "¥1018",
+            "promotions": [
+              "连住优惠",
+              "新客立减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 3,
+            "area": "30-35㎡",
+            "bed": "1张1.8米大床",
+            "breakfast": "含双早",
+            "cancelPolicy": "入住前1天免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-12 08:30:49",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "携程",
+        "platformKey": "ctrip",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.7",
+        "reviewCount": "245点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥337",
+            "originalPrice": "¥399",
+            "promotions": [
+              "早鸟价"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥462",
+            "originalPrice": "¥546",
+            "promotions": [
+              "满减"
+            ],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-12 08:30:49",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "美团",
+        "platformKey": "meituan",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.3",
+        "reviewCount": "530点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥334",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": null,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥463",
+            "originalPrice": "¥512",
+            "promotions": [
+              "连住优惠"
+            ],
+            "remainingRooms": 1,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-12 08:30:47",
+        "status": "success"
+      },
+      {
+        "competitor": "山间雅舍",
+        "competitorTier": "经济",
+        "competitorDistance": "1.2km",
+        "platform": "飞猪",
+        "platformKey": "fliggy",
+        "url": "",
+        "hotelName": "山间雅舍",
+        "rating": "4.8",
+        "reviewCount": "429点评",
+        "hotelPromotions": [
+          "周末特惠"
+        ],
+        "rooms": [
+          {
+            "name": "经济大床房",
+            "price": "¥340",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 2,
+            "roomCount": 2,
+            "area": "15-18㎡",
+            "bed": "1张1.5米大床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "不可取消"
+          },
+          {
+            "name": "舒适双床房",
+            "price": "¥452",
+            "originalPrice": "",
+            "promotions": [],
+            "remainingRooms": 3,
+            "roomCount": 2,
+            "area": "20-25㎡",
+            "bed": "2张1.2米单人床",
+            "breakfast": "无早餐",
+            "cancelPolicy": "入住当天18:00前免费取消"
+          }
+        ],
+        "scrapeTime": "2026-06-12 08:30:26",
+        "status": "success"
+      }
+    ],
+    "failures": [],
+    "summary": {
+      "totalCompetitors": 3,
+      "successCount": 9,
+      "failureCount": 0,
+      "totalRooms": 24,
+      "roomsWithRemaining": 12,
+      "roomsWithPromotions": 8,
+      "roomsWithOriginalPrice": 8,
+      "loginExpiredPlatforms": []
+    }
+  }
+]
