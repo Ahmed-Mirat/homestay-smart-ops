@@ -344,6 +344,21 @@ const OTA_PLATFORMS = {
               }
             }
 
+            // ── v3.4 新增：美团房型详情字段提取（area/bed/breakfast/cancelPolicy）──
+            // 从 nearbyTexts 中按语义匹配提取，与携程提取器策略一致
+            const roomArea = nearbyTexts.find(t => t.includes('㎡') && t.length < 15) || '';
+            const roomBed = nearbyTexts.find(t =>
+              (t.includes('张') && t.includes('床') && t.length < 25) ||
+              (t.includes('大床') && t.length < 10) ||
+              (t.includes('双床') && t.length < 10)
+            ) || '';
+            const roomBreakfast = nearbyTexts.find(t =>
+              t.includes('早餐') && t.length < 20
+            ) || '';
+            const roomCancel = nearbyTexts.find(t =>
+              (t.includes('取消') || t.includes('退款')) && t.length > 3 && t.length < 50
+            ) || '';
+
             rooms.push({
               name: nameText,
               price: priceCandidates[i] || '未获取到',
@@ -351,10 +366,10 @@ const OTA_PLATFORMS = {
               promotions: roomPromotions.length > 0 ? roomPromotions : hotelPromotions.slice(0, 2),
               remainingRooms: remainingRooms,
               roomCount: 0,       // 由外部填充房型总数
-              area: '',
-              bed: '',
-              breakfast: '',
-              cancelPolicy: '',
+              area: roomArea,
+              bed: roomBed,
+              breakfast: roomBreakfast,
+              cancelPolicy: roomCancel,
             });
           }
 
@@ -518,6 +533,18 @@ const OTA_PLATFORMS = {
                 fliggyPromoKeywords.some(kw => t.includes(kw)) && t.length < 20
               );
 
+              // ── v3.4 新增：飞猪房型详情字段提取 ──
+              const roomArea = nearbyTexts.find(t => t.includes('㎡') && t.length < 15) || '';
+              const roomBed = nearbyTexts.find(t =>
+                (t.includes('张') && t.includes('床') && t.length < 25) ||
+                (t.includes('大床') && t.length < 10) ||
+                (t.includes('双床') && t.length < 10)
+              ) || '';
+              const roomBreakfast = nearbyTexts.find(t => t.includes('早餐') && t.length < 20) || '';
+              const roomCancel = nearbyTexts.find(t =>
+                (t.includes('取消') || t.includes('退款')) && t.length > 3 && t.length < 50
+              ) || '';
+
               rooms.push({
                 name: nameText,
                 price: priceValues[i] || '未获取到',
@@ -525,10 +552,10 @@ const OTA_PLATFORMS = {
                 promotions: roomPromotions.length > 0 ? roomPromotions : hotelPromotions.slice(0, 2),
                 remainingRooms: remainingRooms,
                 roomCount: 0,
-                area: '',
-                bed: '',
-                breakfast: '',
-                cancelPolicy: '',
+                area: roomArea,
+                bed: roomBed,
+                breakfast: roomBreakfast,
+                cancelPolicy: roomCancel,
               });
             }
           } else {
@@ -553,6 +580,17 @@ const OTA_PLATFORMS = {
                 fliggyPromoKeywords.some(kw => t.includes(kw)) && t.length < 20
               );
 
+              // ── v3.4 新增：飞猪通用回退路径房型详情字段提取 ──
+              const roomArea = nearbyTexts.find(t => t.includes('㎡') && t.length < 15) || '';
+              const roomBed = nearbyTexts.find(t =>
+                (t.includes('张') && t.includes('床') && t.length < 25) ||
+                (t.includes('大床') && t.length < 10)
+              ) || '';
+              const roomBreakfast = nearbyTexts.find(t => t.includes('早餐') && t.length < 20) || '';
+              const roomCancel = nearbyTexts.find(t =>
+                (t.includes('取消') || t.includes('退款')) && t.length > 3 && t.length < 50
+              ) || '';
+
               rooms.push({
                 name: nameText,
                 price: genericPriceCandidates[i] || '未获取到',
@@ -560,10 +598,10 @@ const OTA_PLATFORMS = {
                 promotions: roomPromotions.length > 0 ? roomPromotions : hotelPromotions.slice(0, 2),
                 remainingRooms: remainingRooms,
                 roomCount: 0,
-                area: '',
-                bed: '',
-                breakfast: '',
-                cancelPolicy: '',
+                area: roomArea,
+                bed: roomBed,
+                breakfast: roomBreakfast,
+                cancelPolicy: roomCancel,
               });
             }
           }
@@ -938,6 +976,17 @@ const OTA_PLATFORMS = {
                 if (match) { remainingRooms = parseInt(match[1] || match[2], 10); break; }
               }
 
+              // ── v3.4 新增：同程房型详情字段提取 ──
+              const roomArea = nearbyTexts.find(t => t.includes('㎡') && t.length < 15) || '';
+              const roomBed = nearbyTexts.find(t =>
+                (t.includes('张') && t.includes('床') && t.length < 25) ||
+                (t.includes('大床') && t.length < 10)
+              ) || '';
+              const roomBreakfast = nearbyTexts.find(t => t.includes('早餐') && t.length < 20) || '';
+              const roomCancel = nearbyTexts.find(t =>
+                (t.includes('取消') || t.includes('退款')) && t.length > 3 && t.length < 50
+              ) || '';
+
               rooms.push({
                 name: roomNameCandidates[i].textContent.trim(),
                 price: priceCandidates[i] || '未获取到',
@@ -945,10 +994,10 @@ const OTA_PLATFORMS = {
                 promotions: [],  // 同程需实测校准活动标签DOM
                 remainingRooms: remainingRooms,
                 roomCount: 0,
-                area: '',
-                bed: '',
-                breakfast: '',
-                cancelPolicy: '',
+                area: roomArea,
+                bed: roomBed,
+                breakfast: roomBreakfast,
+                cancelPolicy: roomCancel,
               });
             }
 

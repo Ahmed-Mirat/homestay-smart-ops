@@ -126,6 +126,9 @@
       <div class="card" style="flex:3"><h3>竞品价格对比</h3><div class="chart-wrap"><canvas id="compChart" style="width:100%;max-height:260px"></canvas></div></div>
       <div class="card" style="flex:2"><h3>入住率趋势 (近14天)</h3><div class="chart-wrap"><canvas id="occChart" style="width:100%;max-height:260px"></canvas></div></div>
     </div>
+    <div class="row" id="trendRow" style="display:none">
+      <div class="card" style="flex:1"><h3>历史价格趋势</h3><div class="chart-wrap"><canvas id="trendChart" style="width:100%;max-height:300px"></canvas></div></div>
+    </div>
     <div class="row">
       <div class="card" style="flex:1"><h3>今日调价建议</h3><table><thead><tr><th>房型</th><th>平台</th><th>现价</th><th>建议价</th><th>幅度</th><th>置信度</th><th></th></tr></thead><tbody>${sugRows}</tbody></table></div>
     </div>
@@ -182,6 +185,32 @@
       window.sendToAgent({ action: '查看调价详情', roomType: roomNames[room] || room, skill: 'homestay-pricing' });
     });
   });
+
+  // ── v3.4 新增：历史价格趋势图 ──
+  if (D.trendChart && D.trendChart.datasets && D.trendChart.datasets.length > 0) {
+    document.getElementById('trendRow').style.display = 'flex';
+    new Chart(document.getElementById('trendChart'), {
+      type: 'line',
+      data: { datasets: D.trendChart.datasets },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { position: 'bottom', labels: { color: muted, padding: 16, font: { size: 11 } } } },
+        scales: {
+          x: { type: 'time', time: { unit: 'day', displayFormats: { day: 'MM/dd' } }, grid: { display: false }, ticks: { color: muted, font: { size: 10 } } },
+          y: { grid: { color: border }, ticks: { color: muted, callback: v => '¥' + v } }
+        }
+      }
+    });
+  }
+
+  // ── v3.4 新增：异常告警面板 ──
+  if (D.anomalies && D.anomalies.length > 0) {
+    const alertDiv = document.createElement('div');
+    alertDiv.className = 'alert-bar';
+    alertDiv.innerHTML = '<span class="icon">⚠</span><span>检测到' + D.anomalies.length + '条价格异常，请关注</span>';
+    const app = document.getElementById('app');
+    app.insertBefore(alertDiv, app.firstChild.nextSibling);
+  }
 
   document.getElementById('btnApply').addEventListener('click', () => {
     window.sendToAgent({ action: '批量审核调价建议', skill: 'homestay-pricing', suggestions: D.alertCount });
