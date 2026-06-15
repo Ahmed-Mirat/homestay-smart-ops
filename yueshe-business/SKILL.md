@@ -59,7 +59,9 @@ triggers:
 - LLM 跨订单匹配 guestName（容忍姓名简写/同音字差异），识别回头客
 - 命中回头客时输出偏好卡片：上次入住日期/房型偏好/历史特殊需求（如"上次要求加床""偏好高层安静房""曾延迟退房至 14:00"）
 
-**依赖**：已有 `orders.json` + LLM 姓名匹配
+**依赖**：已有 `orders.json`（含4条样本数据：回头客/问题客户/历史偏好/风险标签）+ LLM 姓名匹配
+
+**新增资产**：`_shared/data/orders.json` — 含 guestHistory 和 riskTags 字段
 
 ### 4. 深夜自动入住指引
 
@@ -84,6 +86,8 @@ triggers:
 
 **依赖**：已有 `cron-scheduler.js` + `notifier.js` + LLM 内容生成
 
+**新增资产**：`yueshe-business/assets/xiamen-guide.json` — 三时段厦门攻略内容库（入住日/次日/离店前）
+
 ### 6. 延迟退房定价与结算
 
 **触发**："302 客人申请延迟退房到下午 3 点"
@@ -95,6 +99,8 @@ triggers:
 - 客人确认后记录延迟退房订单，自动在退房时间前 30 分钟发送结算提醒
 
 **依赖**：已有 `homestay-pricing` 定价模型 + `checkout-flow.json` + `notifier.js`
+
+**新增资产**：`yueshe-business/assets/late-checkout-flow.json` — 6步延迟退房流程(申请→可行性→定价→报价→确认→结算提醒) + 阶梯定价规则
 
 ### 7. 增值礼品服务推荐
 

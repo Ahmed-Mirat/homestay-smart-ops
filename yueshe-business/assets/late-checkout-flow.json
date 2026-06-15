@@ -1,0 +1,64 @@
+{
+  "name": "延迟退房处理",
+  "version": "1.0",
+  "description": "客人申请延迟退房后的完整处理流程：申请→定价→推送报价→确认→结算提醒",
+  "trigger": {
+    "dialog": ["延迟退房", "晚点退房", "申请晚退"],
+    "cron": null,
+    "event": "late_checkout_request"
+  },
+  "pricingRules": [
+    { "timeRange": "12:00前", "fee": 0, "label": "免费" },
+    { "timeRange": "12:00-14:00", "fee": "half_day", "label": "半日价（50%房费）" },
+    { "timeRange": "14:00-18:00", "fee": "full_day", "label": "全日价（100%房费）" },
+    { "timeRange": "18:00后", "fee": "full_day_plus", "label": "续住一日" }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "name": "接收延迟退房申请",
+      "action": "agent_parse",
+      "input": ["房号", "期望延迟时间"],
+      "output": "客人信息 + 延迟退房时间"
+    },
+    {
+      "id": 2,
+      "name": "可行性判断",
+      "action": "agent_check",
+      "checks": ["当日该房型是否有后客入住", "当前入住率", "客人等级（常客/新客）"],
+      "output": "可否延迟 + 可延迟到几点"
+    },
+    {
+      "id": 3,
+      "name": "计算费用",
+      "action": "apply_pricing_rules",
+      "input": ["房型基础价", "延迟时长", "客人等级折扣"],
+      "output": "费用金额 + 阶梯定价明细"
+    },
+    {
+      "id": 4,
+      "name": "推送报价给客人",
+      "action": "notifier",
+      "template": "late_checkout_quote",
+      "content": "{{guestName}}您好，延迟退房至{{time}}的费用为¥{{fee}}（{{ruleLabel}}）。确认后我们会为您保留房间。"
+    },
+    {
+      "id": 5,
+      "name": "客人确认后安排",
+      "action": "agent_record",
+      "input": "客人确认",
+      "output": "标记房间延迟退房 + 更新保洁排期 + 记录订单"
+    },
+    {
+      "id": 6,
+      "name": "退房前30分钟结算提醒",
+      "action": "cron_remind",
+      "timing": "退房时间前30分钟",
+      "content": "{{guestName}}您好，您的延迟退房时间为{{time}}，届时请至前台办理退房。如需续住请提前告知。"
+    }
+  ],
+  "completionAction": {
+    "notify": "管家",
+    "message": "{{roomNumber}} 延迟退房已处理，{{checkoutTime}}退房，费用¥{{fee}}"
+  }
+}
