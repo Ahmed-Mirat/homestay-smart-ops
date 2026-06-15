@@ -34,6 +34,7 @@ triggers:
 - 不确定时坦诚说明并引导联系人工
 
 **依赖**：已有 `homestay-guest` RAG 框架 + `_shared/setup/kb-generator.js` 知识库生成器
+**新增资产**：`huaye-walker/assets/knowledge-base-template.md` — 公寓知识库模板(缴费/保修/流程/配套/违约)
 
 ### 2. 定时消息推送
 
@@ -46,6 +47,7 @@ triggers:
 - 支持单次/每日/每周/每月/指定日期
 
 **依赖**：已有 `cron-scheduler.js` + `notifier.js`
+**新增资产**：`_shared/data/broadcast-templates.json` — 4类预置广播模板(安全警示/节日问候/交租提醒/公寓公告)
 
 ### 3. 维修工单管理
 
@@ -55,9 +57,10 @@ triggers:
 - **派单**：自然语言解析（房间号+维修师傅+报修内容）→ 调用 `task-manager.js create --type repair`
 - **完工**："302 修好了" / "张师傅搞定了 302" → 调用 `task-manager.js complete --room 302`
 - **导出**："导出本月工单" → 调用 `homestay-workflow/scripts/export-tasks.cjs` 生成 Excel
-- **超时预警**：定期扫描 `tasks.json` 中 type=repair 且 status!=done 且 createdAt 超过 24h 的任务 → 通过 `notifier.js` 向派单人和维修师傅双方推送提醒
+- **超时预警**：`huaye-walker/scripts/timeout-checker.js` 扫描超24h未完工的维修任务 → 通过 `notifier.js` 双向推送提醒
 
 **依赖**：已有 `task-manager.js` (type:repair) + `export-tasks.cjs` + `notifier.js`
+**新增资产**：`huaye-walker/scripts/timeout-checker.js` — 用法 `node timeout-checker.js check|notify`
 
 ### 4. 分级房租催缴
 
