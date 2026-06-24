@@ -1,0 +1,43 @@
+{
+  "tenants": [
+    {
+      "id": "T001",
+      "name": "张三",
+      "room": "301",
+      "phone": "13800001111",
+      "rent_day": 10,
+      "amount": 2800,
+      "tag": "优质",
+      "last_paid": "2026-05-10",
+      "status": "已缴"
+    },
+    {
+      "id": "T002",
+      "name": "李四",
+      "room": "302",
+      "phone": "13800002222",
+      "rent_day": 15,
+      "amount": 3200,
+      "tag": "普通",
+      "last_paid": "2026-05-15",
+      "status": "未缴"
+    },
+    {
+      "id": "T003",
+      "name": "王五",
+      "room": "303",
+      "phone": "13800003333",
+      "rent_day": 5,
+      "amount": 2500,
+      "tag": "关注",
+      "last_paid": "2026-05-05",
+      "status": "未缴"
+    }
+  ],
+  "rules": {
+    "early_days": 3,
+    "overdue_levels": [1, 3, 7],
+    "auto_push": false,
+    "push_time": "09:00"
+  }
+}
