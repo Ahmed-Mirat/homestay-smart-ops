@@ -1,5 +1,7 @@
 # 携程商家后台操作指引（兜底策略）
 
+> 📎 相关链接：[[skills/homestay/homestay-smart-ops-SKILL|主控 Skill]] | [[skills/homestay/homestay-sync/homestay-sync-SKILL同步 Skill]] | [[skills/SKILLS-MOC|技能地图]]
+
 > 当 Browser Agent 无法自动完成操作时，按以下步骤手动执行。
 
 ---

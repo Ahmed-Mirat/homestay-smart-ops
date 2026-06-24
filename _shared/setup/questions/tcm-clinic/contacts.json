@@ -1,0 +1,35 @@
+{
+  "practitioners": {
+    "question": "有哪些坐诊医师？",
+    "instruction": "逐个采集，用于预约和分配",
+    "fields": [
+      { "id": "name", "label": "姓名", "example": "张医师", "required": true },
+      { "id": "title", "label": "职称", "example": "主治医师/副主任", "required": false },
+      { "id": "specialty", "label": "擅长", "example": "颈椎腰椎/妇科调理/儿科推拿", "required": true },
+      { "id": "schedule", "label": "坐诊时间", "example": "周一至周五全天", "required": true }
+    ],
+    "endSignals": ["就这些", "没了", "没有了"]
+  },
+  "frontDesk": {
+    "question": "前台电话？（客户预约咨询用）",
+    "fields": [
+      { "id": "phone", "label": "预约电话", "example": "0571-8888xxxx", "required": true },
+      { "id": "wechat", "label": "微信号（可选）", "example": "renhetang_tcm", "required": false }
+    ]
+  },
+  "memberAdvisor": {
+    "question": "有会员顾问吗？（负责充值和续费的人）",
+    "optional": true,
+    "fields": [
+      { "id": "name", "label": "称呼", "example": "小李", "required": true },
+      { "id": "phone", "label": "电话", "example": "138xxxx1234", "required": true }
+    ]
+  },
+  "emergencyContact": {
+    "question": "紧急联系人电话？（如馆长/负责人）",
+    "fields": [
+      { "id": "name", "label": "称呼", "example": "王馆长", "required": true },
+      { "id": "phone", "label": "电话", "example": "138xxxx1234", "required": true }
+    ]
+  }
+}

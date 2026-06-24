@@ -1,7 +1,8 @@
 ---
 name: homestay-smart-ops
-version: 3.3.0
-description: 民宿智能运营 Skill 套件 —— 安装即用的全链路运营助手。8项核心功能无需商家后台账号即可使用（竞品采集仅需消费者端账号，支持活动标签+原价+房型数量），OTA商家后台功能可后续激活
+version: 4.1.0
+type: homestay
+description: 民宿智能运营 Skill 套件 —— 8+核心功能无需商家后台。支持携程/美团/飞猪/去哪儿/同程五大OTA平台竞品采集。动态cron调度+AI话术生成+回头客识别+延迟退房定价+问题客户预警。支持自动化安装与商户类型预选机制。
 triggers:
   - 民宿
   - 运营
@@ -18,9 +19,20 @@ triggers:
   - 状态检查
   - 帮我检查
   - 系统正常吗
+  - 怎么用
+  - 工单导出
+  # 功能查询触发词
+  - 功能清单
+  - 我能用什么
   - 有什么功能
   - 能干什么
-  - 怎么用
+  # 修改信息触发词
+  - 修改信息
+  - 改一下
+  - 修改配置
+  # 环境安装触发词
+  - 安装
+  - 重新安装
 ---
 
 # 民宿智能运营 Skill 套件
@@ -31,11 +43,67 @@ triggers:
 
 当检测到 `_shared/setup/setup-state.json` 中 `completed` 为 false，或用户首次对话时，**立即启动安装向导**：
 
-1. 对话中说"开始设置"或"初始化"
-2. 按引导逐步录入民宿信息（约10分钟）
-3. 完成后知识库和配置自动生成
+### 首次安装
+
+触发词"开始设置"/"初始化"后，系统自动进入安装向导：
+
+1. **预选商户类型**（民宿/公寓/酒店/中医馆）—— 当前套件默认 `propertyType = "homestay"`
+2. **自动环境检查与依赖安装**（无需手动执行命令）—— 调用 `node _shared/scripts/auto-install.js --type homestay`
+3. **5步引导采集信息**（约10分钟）—— 民宿基本信息 / 房型房号 / 设施清单 / 团队成员 / 服务规则
+4. **自动生成知识库** —— 输出至 `_shared/data/knowledge-base/`
+5. **输出功能验证清单** —— 列出立即可用与待激活功能
 
 设置向导的完整行为定义见 `_shared/setup/SETUP-WIZARD.md`。
+
+> ⚠️ 旧版的 `cd _shared && npm install` 手动安装方式已废弃，统一由 `auto-install.js` 自动完成。
+
+---
+
+## 🤖 Agent 行为规则（功能查询 / 修改信息 / 安装）
+
+### 功能清单查询
+
+当用户说"功能清单"/"我能用什么"/"有什么功能"/"能干什么"时：
+
+1. 读取 `_shared/config.json` 确认 `propertyType = "homestay"`
+2. 检查各功能的激活状态：
+   - 通知 webhook 是否配置（`notification.wechatWork.webhookUrl`）
+   - 浏览器 profile 是否初始化（`homestay-pricing/.browser-profile/`）
+   - OTA 商家后台是否激活（`ota.activated`）
+3. 输出动态功能列表：
+
+```
+---
+📋 {民宿名} — 功能状态
+
+━━━ 立即可用 ━━━
+✅ 智能客服 → "WiFi密码是什么"
+✅ 保洁排班 → "{员工名}打扫{房号}"
+✅ 任务看板 → "创建维修任务"
+{✅/⚠️} 通知推送 → {已配置/未配置，说"配置通知"启用}
+✅ 日终流程 → "日终"
+✅ 工作台面板 → "打开工作台"
+✅ 订单管理 → "张先生明天入住"
+{✅/⚠️} 竞品采集 → {已初始化/需初始化浏览器}
+
+━━━ 待激活 ━━━
+🔒 自动改价 → 说"激活OTA"了解详情
+🔒 全平台关房/开房
+🔒 数据报表
+---
+```
+
+### 修改信息
+
+当用户说"修改信息"/"改一下"/"修改配置"时：
+
+转入 `_shared/setup/SETUP-WIZARD.md` 的数据修正流程，输出修改菜单（基本信息 / 房型房号 / 设施 / 团队 / 服务规则）由用户选择条目后局部更新。
+
+### 安装与环境
+
+当用户说"安装"/"重新安装"时：
+
+调用 `node _shared/scripts/auto-install.js --type homestay` 执行自动安装，安装完成后输出结果摘要（依赖状态 / 配置状态 / 知识库状态 / 功能可用性）。
 
 ---
 
@@ -235,15 +303,16 @@ triggers:
 
 ## 前置条件
 
-**如果是您第一次使用，请直接在对话中说"开始设置"**，助手会引导您完成依赖安装和初始化。
+**如果是您第一次使用，请直接在对话中说"开始设置"**，助手会自动调用 `_shared/scripts/auto-install.js` 完成依赖安装与初始化，**无需手动执行任何命令**。
 
-助手首次启动时会检测 `_shared/node_modules` 是否存在：
-- 存在 → 跳过到信息录入
-- 不存在 → 在对话中告诉商户复制一行命令到终端运行（1分钟），安装完成后继续向导
+助手首次启动时会检测以下事项：
+- `_shared/node_modules` 是否存在 → 不存在则自动 `npm install`
+- `_shared/config.json` 是否含 `propertyType` → 缺失则预选 homestay
+- `_shared/setup/setup-state.json` `completed` 状态 → false 则进入向导
 
-在 QoderWork 终端中执行的安装命令（商户复制粘贴）：
+自动安装调用（助手内部执行，商户无感）：
 ```
-cd _shared && npm install
+node _shared/scripts/auto-install.js --type homestay
 ```
 
 ---
@@ -293,7 +362,17 @@ cd _shared && npm install
 ## 快速上手（3步开始使用）
 
 ```
-1. cd _shared && npm install
-2. 对话说"开始设置" → 按引导录入民宿信息
+1. 对话说"开始设置" → 系统自动执行 auto-install.js 并进入向导
+2. 按引导录入民宿信息（5步约 10 分钟）
 3. 完成后立即可以使用：问WiFi密码、安排排班、创建任务、生成面板
 ```
+
+---
+
+## 相关链接
+
+- 📍 知识库根节点：[[知识图谱-MOC]]
+- 🗺️ 技能地图：[[skills/SKILLS-MOC]]
+- 🏥 中医馆智能运营套件：[[skills/tcm/tcm-SKILL]]
+- 🧠 个人知识库：[[skills/personal-knowledge-base/personal-knowledge-base-SKILL]]
+- 🧭 FDE 方法论：[[FDE-方法论体系]]

@@ -2,6 +2,8 @@
 
 > 本模板定义日报的标准结构。Skill 读取本地数据后按此模板格式化输出。
 
+> 📎 相关链接：[[skills/homestay/homestay-report/homestay-report-SKILL所属 Skill]] | [[skills/SKILLS-MOC|技能地图]]
+
 ## 模板变量
 
 | 变量 | 来源 | 说明 |

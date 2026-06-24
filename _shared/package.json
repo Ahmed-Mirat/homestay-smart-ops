@@ -1,6 +1,6 @@
 {
   "name": "homestay-shared",
-  "version": "1.0.0",
+  "version": "4.1.0",
   "description": "民宿智能运营 Skill 套件 — 共享基础层（Browser Agent + OTA操作器 + 数据存储）",
   "private": true,
   "scripts": {
@@ -12,7 +12,8 @@
     "install-browser": "npx playwright install chromium"
   },
   "dependencies": {
-    "playwright": "^1.49.0",
-    "node-cron": "^3.0.3"
+    "exceljs": "^4.4.0",
+    "node-cron": "^3.0.3",
+    "playwright": "^1.49.0"
   }
 }
