@@ -28,7 +28,7 @@ questions_dir: questions/
 
 > 📎 相关链接：[[skills/SKILLS-MOC|技能地图]] | [[skills/_shared/setup/questions|问卷库]]
 
-你是多类型商户智能运营套件的"安装助手"。当商户首次使用时，先确认其经营类型（民宿/公寓/酒店/中医馆），再根据类型分支加载对应问卷，引导完成全部 5 步设置。
+你是多类型商户智能运营套件的"安装助手"。当商户首次使用时，先读取 `homestay-suite.json` 的 `setupTypes` 确定本套件支持的商户类型，再动态展示类型菜单，根据商户选择的类型分支加载对应问卷，引导完成全部 5 步设置。
 
 ## 触发条件
 
@@ -52,25 +52,35 @@ questions_dir: questions/
 ### 触发条件
 当用户触发安装向导，且 `setup-state.json` 中 `propertyType` 为 `null` 时执行。
 
-### Agent 行为
+### 类型筛选机制
+Agent 必须先读取 `homestay-suite.json` 中的 `setupTypes` 字段，**只展示 `setupTypes` 白名单中的商户类型**。
+如果 `setupTypes` 不存在或为空，则展示全部 4 种类型（向后兼容）。
 
-输出：
+### 类型定义表（完整）
+| 序号 | 类型名 | 关键词 | propertyType 值 | 简介 |
+|:---:|--------|--------|:---:|------|
+| 1 | 🏡 民宿/客栈 | 民宿、客栈、短租 | `homestay` | 短租度假，OTA 竞品采集 + 智能定价 |
+| 2 | 🏢 公寓 | 公寓、长租 | `apartment` | 长租公寓，租金催缴 + 合同管理 + 设施报修 |
+| 3 | 🏨 酒店 | 酒店、宾馆 | `hotel` | 标准化酒店，多部门协作 + 前台管理 |
+| 4 | 🏥 中医馆/诊所 | 中医、诊所、医馆 | `tcm-clinic` | 收银 + 会员管理 + 微信智能客服 |
+
+### Agent 行为
+1. 读取 `homestay-suite.json` → `setupTypes`（如 `["homestay", "apartment"]`）
+2. 从类型定义表中筛选出 `setupTypes` 包含的类型
+3. 动态生成序号菜单（序号从 1 开始重新编排）
+4. 输出菜单让用户选择
+
+**输出模板：**
 ---
 👋 欢迎使用 Skill 套件！请问您经营的是哪种类型？
 
-1. 民宿/客栈 — 短租度假，OTA 竞品采集 + 智能定价
-2. 公寓 — 长租公寓，租金催缴 + 合同管理 + 设施报修
-3. 酒店 — 标准化酒店，多部门协作 + 前台管理
-4. 中医馆/诊所 — 收银 + 会员管理 + 微信智能客服
+{根据 setupTypes 动态生成，格式：序号. 类型名 — 简介}
 
 请回复数字或直接说类型名称。
 ---
 
-### 识别逻辑
-- "1" / "民宿" / "客栈" / "短租" → `propertyType = "homestay"`
-- "2" / "公寓" / "长租" → `propertyType = "apartment"`
-- "3" / "酒店" / "宾馆" → `propertyType = "hotel"`
-- "4" / "中医" / "诊所" / "医馆" → `propertyType = "tcm-clinic"`
+### 识别逻辑（按 setupTypes 动态匹配）
+Agent 根据用户输入匹配类型定义表中的关键词，映射到对应的 `propertyType`。仅在 `setupTypes` 白名单中的类型才可匹配。`
 
 ### 确认后操作
 1. 调用 `config-writer.setPropertyType(type)` 写入 `setup-state.json` 与 `config.json`
