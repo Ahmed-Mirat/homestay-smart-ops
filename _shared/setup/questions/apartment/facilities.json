@@ -1,0 +1,8 @@
+[
+  { "id": "commonAreas", "question": "有哪些公共区域设施？", "example": "健身房、洗衣房、快递柜、公共厨房", "required": false },
+  { "id": "parking", "question": "停车位情况？", "example": "地下车位月租300元，地面免费临时停", "required": false },
+  { "id": "security", "question": "安保措施？", "example": "门禁刷卡、24小时监控、保安巡逻", "required": false },
+  { "id": "internet", "question": "网络情况？", "example": "免费WiFi全覆盖/需自行办理宽带", "required": true },
+  { "id": "propertyServices", "question": "物业提供哪些服务？", "example": "保洁公区、垃圾清运、绿化维护、报修响应", "required": false },
+  { "id": "rules", "question": "有什么住户公约或注意事项？", "example": "22点后勿大声喧哗、禁止养大型犬、禁止群租", "required": false }
+]

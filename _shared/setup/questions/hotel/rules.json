@@ -1,0 +1,10 @@
+[
+  { "id": "checkinTime", "question": "入住时间？", "example": "14:00", "format": "HH:MM", "required": true },
+  { "id": "checkoutTime", "question": "退房时间？", "example": "12:00", "format": "HH:MM", "required": true },
+  { "id": "lateCheckout", "question": "延迟退房政策？", "example": "14:00前半价，14:00后全价续住", "required": true },
+  { "id": "frontDesk24h", "question": "前台是否24小时值班？", "example": "是/夜间仅1人值班", "required": true },
+  { "id": "luggageStorage", "question": "行李寄存服务？", "example": "免费寄存，退房当天可存至18:00", "required": false },
+  { "id": "cancelPolicy", "question": "取消政策？", "example": "入住前1天18:00前免费取消", "required": true },
+  { "id": "deposit", "question": "入住押金？", "example": "300元/间，退房时退还", "required": false },
+  { "id": "meetingRoom", "question": "有会议室吗？如何预约？", "example": "2间，前台预约，200元/小时", "required": false }
+]

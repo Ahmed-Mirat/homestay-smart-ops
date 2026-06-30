@@ -1,5 +1,0 @@
-[
-  { "id": "name", "question": "您的民宿叫什么名字？", "type": "text", "required": true, "field": "homestay.name" },
-  { "id": "address", "question": "地址在哪里？（城市+详细地址）", "type": "text", "required": true, "field": "homestay.address" },
-  { "id": "totalRooms", "question": "一共有多少间客房？", "type": "number", "required": true, "field": "homestay.totalRooms" }
-]

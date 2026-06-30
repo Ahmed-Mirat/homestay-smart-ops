@@ -3,6 +3,8 @@
 > 本文件为民宿知识库的数据模板，使用前请替换 [占位符] 为真实信息。
 > 知识库是 homestay-guest Skill 的核心依赖，数据越完整，回复越精准。
 
+> 📎 相关链接：[[skills/homestay/homestay-guest/homestay-guest-SKILL所属 Skill]] | [[skills/SKILLS-MOC|技能地图]]
+
 ---
 
 ## 一、房源信息

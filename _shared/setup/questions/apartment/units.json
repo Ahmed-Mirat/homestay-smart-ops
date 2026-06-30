@@ -1,0 +1,11 @@
+[
+  { "id": "unitType", "question": "户型名称？", "example": "一室一厅/两室一厅/LOFT", "required": true },
+  { "id": "area", "question": "面积多大？", "example": "45㎡", "required": true },
+  { "id": "floor", "question": "在几楼？", "example": "3-12层均有", "required": false },
+  { "id": "orientation", "question": "朝向？", "example": "南向/东南", "required": false },
+  { "id": "monthlyRent", "question": "月租金多少？", "example": "3500元/月", "required": true },
+  { "id": "paymentMethod", "question": "付款方式？", "example": "押一付三", "required": true },
+  { "id": "inventory", "question": "这个户型有几套空房？", "example": "5套", "required": true },
+  { "id": "decoration", "question": "装修情况？", "example": "精装修/简装/毛坯", "required": false },
+  { "id": "appliances", "question": "配备哪些家电家具？", "example": "空调、洗衣机、冰箱、热水器、床、衣柜", "required": false }
+]
