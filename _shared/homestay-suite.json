@@ -10,29 +10,93 @@
   },
   "features": {
     "available_now": [
-      {"name": "智能客服", "description": "基于知识库回答客人常见问题，情绪分级，差评回复"},
-      {"name": "保洁排班", "description": "对话式排班，自动生成任务，追踪完成进度"},
-      {"name": "任务看板", "description": "待办→进行中→完成，三列管理，对话确认"},
-      {"name": "通知推送", "description": "新订单/日报/告警推送到企业微信群"},
-      {"name": "日终流程", "description": "每日汇总统计+推送+明日待办"},
-      {"name": "工作台面板", "description": "KPI+待办+告警+快捷操作，一屏总览"},
-      {"name": "手动订单管理", "description": "口述录入订单，触发入住准备流程"},
-      {"name": "竞品价格采集", "description": "消费者端账号自动采集竞品价格+活动标签+原价+房型数量，支持携程/美团/飞猪/去哪儿/同程，无需商家后台"}
+      {
+        "name": "智能客服",
+        "description": "基于知识库回答客人常见问题，情绪分级，差评回复"
+      },
+      {
+        "name": "保洁排班",
+        "description": "对话式排班，自动生成任务，追踪完成进度"
+      },
+      {
+        "name": "任务看板",
+        "description": "待办→进行中→完成，三列管理，对话确认"
+      },
+      {
+        "name": "通知推送",
+        "description": "新订单/日报/告警推送到企业微信群"
+      },
+      {
+        "name": "日终流程",
+        "description": "每日汇总统计+推送+明日待办"
+      },
+      {
+        "name": "工作台面板",
+        "description": "KPI+待办+告警+快捷操作，一屏总览"
+      },
+      {
+        "name": "手动订单管理",
+        "description": "口述录入订单，触发入住准备流程"
+      },
+      {
+        "name": "竞品价格采集",
+        "description": "消费者端账号自动采集竞品价格+活动标签+原价+房型数量，支持携程/美团/飞猪/去哪儿/同程，无需商家后台"
+      }
     ],
     "requires_ota": [
-      {"name": "自动改价执行", "description": "系统帮您在后台直接改价", "requires": "携程/美团/飞猪/去哪儿/同程商家后台"},
-      {"name": "全平台关房/开房", "description": "一键在所有平台关闭或开放房间", "requires": "各平台商家后台"},
-      {"name": "超卖预防", "description": "新订单后自动关闭其他平台同期售卖", "requires": "各平台商家后台"},
-      {"name": "自动数据采集", "description": "订单/房态/营收数据自动读取", "requires": "各平台商家后台"},
-      {"name": "活动同步", "description": "促销活动全平台一键同步", "requires": "各平台商家后台"}
+      {
+        "name": "自动改价执行",
+        "description": "系统帮您在后台直接改价",
+        "requires": "携程/美团/飞猪/去哪儿/同程商家后台"
+      },
+      {
+        "name": "全平台关房/开房",
+        "description": "一键在所有平台关闭或开放房间",
+        "requires": "各平台商家后台"
+      },
+      {
+        "name": "超卖预防",
+        "description": "新订单后自动关闭其他平台同期售卖",
+        "requires": "各平台商家后台"
+      },
+      {
+        "name": "自动数据采集",
+        "description": "订单/房态/营收数据自动读取",
+        "requires": "各平台商家后台"
+      },
+      {
+        "name": "活动同步",
+        "description": "促销活动全平台一键同步",
+        "requires": "各平台商家后台"
+      }
     ]
   },
   "skills": [
-    {"name": "homestay-guest", "version": "2.0.0", "description": "智能客服：情绪分级 + 知识库RAG + 差评回复"},
-    {"name": "homestay-workflow", "version": "1.1.0", "description": "流程自动化：排班 + 任务看板 + 入住/退房/日终流程"},
-    {"name": "homestay-pricing", "version": "3.3.0", "description": "智能定价：5因子模型 + 调价建议 + 竞品采集（五平台消费者端，v3.3含活动标签+原价+房型数量）+ 自动改价执行（需商家后台）"},
-    {"name": "homestay-report", "version": "1.0.0", "description": "数据报表：日报/周报模板 + 计算公式（自动数据需OTA）"},
-    {"name": "homestay-sync", "version": "1.2.0", "description": "多平台同步：五平台改价/关房/开房（需OTA）+ 人工指引"}
+    {
+      "name": "homestay-guest",
+      "version": "2.0.0",
+      "description": "智能客服：情绪分级 + 知识库RAG + 差评回复"
+    },
+    {
+      "name": "homestay-workflow",
+      "version": "1.1.0",
+      "description": "流程自动化：排班 + 任务看板 + 入住/退房/日终流程"
+    },
+    {
+      "name": "homestay-pricing",
+      "version": "3.3.0",
+      "description": "智能定价：5因子模型 + 调价建议 + 竞品采集（五平台消费者端，v3.3含活动标签+原价+房型数量）+ 自动改价执行（需商家后台）"
+    },
+    {
+      "name": "homestay-report",
+      "version": "1.0.0",
+      "description": "数据报表：日报/周报模板 + 计算公式（自动数据需OTA）"
+    },
+    {
+      "name": "homestay-sync",
+      "version": "1.2.0",
+      "description": "多平台同步：五平台改价/关房/开房（需OTA）+ 人工指引"
+    }
   ],
   "setup": {
     "steps": [
@@ -48,7 +112,13 @@
   },
   "requirements": {
     "runtime": "node >= 18",
-    "dependencies": ["playwright", "node-cron"],
+    "dependencies": [
+      "playwright",
+      "node-cron"
+    ],
     "note": "playwright 在竞品采集和OTA功能中均需要"
-  }
+  },
+  "setupTypes": [
+    "hotel"
+  ]
 }
