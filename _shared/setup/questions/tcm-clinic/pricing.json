@@ -1,7 +1,0 @@
-[
-  { "id": "serviceName", "question": "项目名称？", "example": "推拿正骨", "required": true, "note": "需与services.json中项目对应" },
-  { "id": "singlePrice", "question": "单次价格？", "example": "198元", "required": true },
-  { "id": "coursePrice", "question": "疗程价格？（如10次疗程）", "example": "10次1680元（省300）", "required": false },
-  { "id": "memberPrice", "question": "会员价？", "example": "158元/次", "required": false },
-  { "id": "firstTimePrice", "question": "首次体验价？（新客优惠）", "example": "首次98元", "required": false }
-]
