@@ -1,5 +1,7 @@
 # 企业微信通知配置指引
 
+> 📎 相关链接：[[skills/homestay/homestay-smart-ops-SKILL|主控 Skill]] | [[skills/SKILLS-MOC|技能地图]]
+
 > 3步配置，零技术门槛。配置后日报、新订单、任务通知自动推送到微信群。
 
 ---

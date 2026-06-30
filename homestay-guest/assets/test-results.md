@@ -401,3 +401,11 @@
 - SKILL.md: v1.0.0 → v1.1.0（4处修复）
 - knowledge-base-template.md: 无变更
 - test-cases.md: 无变更
+
+---
+
+## 相关链接
+- 所属 Skill：[[skills/homestay/homestay-guest/homestay-guest-SKILL]]
+- 测试用例：[[skills/homestay/homestay-guest/assets/test-cases]]
+- pricing 测试结果：[[skills/homestay/homestay-pricing/assets/test-results]]
+- 技能地图：[[skills/SKILLS-MOC]]

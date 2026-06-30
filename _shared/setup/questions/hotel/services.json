@@ -1,0 +1,10 @@
+[
+  { "id": "airportPickup", "question": "有接机/送机服务吗？", "example": "免费接机（行政房以上）/收费接机100元", "required": false },
+  { "id": "laundry", "question": "洗衣服务？", "example": "洗衣送洗，价目表在房间内，当日取", "required": false },
+  { "id": "wakeUpCall", "question": "叫醒服务？", "example": "前台可设置电话叫醒", "required": false },
+  { "id": "roomService", "question": "客房送餐服务？", "example": "6:30-22:00可点餐，菜单在房内", "required": false },
+  { "id": "businessCenter", "question": "商务中心服务？", "example": "大堂有打印/复印/传真，免费WiFi", "required": false },
+  { "id": "gym", "question": "健身房/泳池？", "example": "B1健身房24h开放，泳池7:00-22:00", "required": false },
+  { "id": "restaurant", "question": "餐厅情况？", "example": "1楼中餐厅/2楼自助早餐/大堂吧", "required": false },
+  { "id": "specialServices", "question": "其他特色服务？", "example": "免费下午茶(行政楼层)、儿童乐园、SPA", "required": false }
+]

@@ -1,0 +1,270 @@
+#!/bin/bash
+# Auto-generate today's training+meal plan and open in browser.
+# Schedule: launchd daily at 7:30 AM
+
+cat > /tmp/amber-training-today.html << 'HTMLEOF'
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amber · 今日训练饮食计划</title>
+<style>
+  :root {
+    --bg: #0d0d0d; --card: #1a1a1a; --border: #2a2a2a;
+    --text: #e0e0e0; --muted: #888; --accent: #ff6a00;
+    --push-day: #ff6a00; --pull-day: #3b82f6; --leg-day: #22c55e;
+    --arm-day: #a855f7; --shoulder-day: #f59e0b; --chest-day: #ef4444;
+    --rest-day: #6b7280;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: -apple-system, "SF Pro Display", "PingFang SC", sans-serif;
+    background: var(--bg); color: var(--text);
+    max-width: 520px; margin: 0 auto; padding: 20px 16px 40px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .header {
+    text-align: center; padding: 24px 0 16px;
+    border-bottom: 1px solid var(--border); margin-bottom: 20px;
+  }
+  .header .date { font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+  .header .day-label { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; }
+  .header .subtitle { font-size: 14px; color: var(--muted); margin-top: 4px; }
+
+  .stats-row {
+    display: flex; gap: 8px; margin-bottom: 20px;
+  }
+  .stat-box {
+    flex:1; background:var(--card); border:1px solid var(--border);
+    border-radius: 10px; padding: 12px 10px; text-align: center;
+  }
+  .stat-box .val { font-size: 20px; font-weight: 700; }
+  .stat-box .lbl { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+  .section-title {
+    font-size: 15px; font-weight: 700; letter-spacing: 0.5px;
+    margin: 24px 0 10px; padding-left: 10px;
+    border-left: 3px solid var(--accent);
+  }
+  .section-title.rest { border-left-color: var(--rest-day); }
+  .section-title.meal { border-left-color: #f59e0b; }
+
+  .meal-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 12px 14px; margin-bottom: 8px;
+    display: flex; align-items: flex-start; gap: 12px;
+  }
+  .meal-time {
+    font-size: 13px; font-weight: 600; color: var(--accent);
+    min-width: 42px; padding-top: 2px;
+  }
+  .meal-content { flex:1; }
+  .meal-content .food { font-size: 14px; font-weight: 500; }
+  .meal-content .macros { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+  .exercise-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-left: 3px solid var(--arm-day);
+    border-radius: 0 10px 10px 0; padding: 12px 14px; margin-bottom: 8px;
+  }
+  .ex-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+  .ex-name { font-size: 15px; font-weight: 600; }
+  .ex-sets { font-size: 13px; color: var(--muted); }
+  .ex-detail { font-size: 12px; color: var(--muted); display: flex; gap: 16px; flex-wrap: wrap; }
+  .ex-detail span { white-space: nowrap; }
+  .ex-note { font-size: 11px; color: #666; margin-top: 3px; font-style: italic; }
+
+  .rest-banner {
+    text-align: center; padding: 32px 16px;
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; margin: 16px 0;
+  }
+  .rest-banner .emoji { font-size: 48px; margin-bottom: 8px; }
+  .rest-banner .msg { font-size: 16px; font-weight: 600; }
+  .rest-banner .hint { font-size: 13px; color: var(--muted); margin-top: 4px; }
+
+  .warning-box {
+    background: #1a1200; border: 1px solid #3d2e00;
+    border-radius: 8px; padding: 10px 14px; margin: 16px 0;
+    font-size: 12px; color: #cc9900;
+  }
+
+  .footer {
+    text-align: center; padding: 24px 0 0;
+    font-size: 11px; color: #444;
+    border-top: 1px solid var(--border); margin-top: 24px;
+  }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+// ── DATA ──────────────────────────────────────────
+const now = new Date();
+const day = now.getDay(); // 0=Sun, 1=Mon … 6=Sat
+const dateStr = now.toLocaleDateString('zh-CN', { year:'numeric', month:'long', day:'numeric', weekday:'long' });
+
+const STATS = { weight: '53.3kg', target: '60kg', armGoal: '+2.5cm', protein: '137g/day' };
+
+// Meal schedule — same every training day
+const TRAINING_MEALS = [
+  { time:'7:40', food:'2全蛋 + 2蛋白 + 2片厚吐司 + 250ml全脂牛奶', macros:'~30g蛋白 · ~55g碳水 · ~520kcal' },
+  { time:'10:00', food:'1勺增肌粉 + 250ml水（提前分装带公司）', macros:'8.3g蛋白 · 21.6g碳水 · ~124kcal' },
+  { time:'12:00', food:'外卖: 黄焖鸡(加鸡腿) + 米饭吃光 + 1盒牛奶', macros:'~35g蛋白 · ~85g碳水 · ~650kcal' },
+  { time:'15:00', food:'1盒牛奶 + 1根香蕉 或 2个茶叶蛋', macros:'~10g蛋白 · ~30g碳水 · ~180kcal' },
+  { time:'20:10', food:'🏋️ 练后: 2勺增肌粉 + 300ml全脂牛奶', macros:'26.1g蛋白 · 57.6g碳水 · ~443kcal' },
+  { time:'20:40', food:'外卖: 牛肉饭/麻辣烫(双份肉) + 米饭吃光', macros:'~30g蛋白 · ~80g碳水 · ~580kcal' },
+  { time:'22:30', food:'睡前: 1杯酸奶 + 1根香蕉', macros:'~8g蛋白 · ~30g碳水 · ~160kcal' },
+];
+
+const REST_MEALS = [
+  { time:'8:30', food:'2全蛋 + 2蛋白 + 2片厚吐司 + 250ml全脂牛奶', macros:'~30g蛋白 · ~55g碳水 · ~520kcal' },
+  { time:'10:00', food:'1.5勺增肌粉 + 250ml全脂牛奶', macros:'20.5g蛋白 · 44.7g碳水 · ~351kcal' },
+  { time:'12:00', food:'正常午餐，保证有肉有饭', macros:'~30g蛋白 · ~80g碳水 · ~600kcal' },
+  { time:'15:00', food:'水果 + 酸奶', macros:'~5g蛋白 · ~25g碳水 · ~130kcal' },
+  { time:'18:00', food:'晚餐: 正常吃，双份肉', macros:'~30g蛋白 · ~80g碳水 · ~550kcal' },
+  { time:'22:30', food:'睡前: 1杯酸奶 + 1根香蕉', macros:'~8g蛋白 · ~30g碳水 · ~160kcal' },
+];
+
+// ── TRAINING PLANS ──────────────────────────────
+const ARM_A = {
+  label: '手臂A · 二头侧重', color: '#a855f7',
+  exercises: [
+    { name:'坐姿集中弯举', detail:'10-14kg × 4组', reps:'8-12次/臂', note:'单臂大重量，肘钉大腿，离心3秒', rest:'45″' },
+    { name:'锤式弯举（双臂同时）', detail:'7kg/只 × 3组', reps:'15-20次', note:'肩下沉，离心4秒补偿', rest:'45″' },
+    { name:'单臂俯身臂屈伸', detail:'7-8kg × 3组', reps:'12-15次/臂', note:'大臂平行地面，全程不动', rest:'45″' },
+    { name:'仰卧哑铃臂屈伸', detail:'10-14kg(双手合握一只) × 3组', reps:'8-12次', note:'肘朝前，放额头后方', rest:'45″' },
+  ]
+};
+
+const ARM_B = {
+  label: '手臂B · 三头侧重', color: '#a855f7',
+  exercises: [
+    { name:'窄距俯卧撑', detail:'自重 × 3组', reps:'力竭', note:'肘指脚方向，核心锁死', rest:'60″' },
+    { name:'仰卧哑铃臂屈伸', detail:'10-14kg(双手合握) × 4组', reps:'8-12次', note:'单只大重量，肘朝前', rest:'45″' },
+    { name:'21响礼炮弯举', detail:'5-6kg/只 × 2轮', reps:'7+7+7', note:'背靠墙，最后7次离心5秒', rest:'60″' },
+    { name:'单臂俯身臂屈伸', detail:'7-8kg × 3组', reps:'12-15次/臂', note:'顶峰停2秒', rest:'45″' },
+  ]
+};
+
+const ARM_C = {
+  label: '手臂C · 平衡收尾', color: '#a855f7',
+  exercises: [
+    { name:'锤式弯举（预疲劳）', detail:'6-7kg/只 × 2组', reps:'15次', note:'双臂，找泵感', rest:'30″' },
+    { name:'坐姿集中弯举', detail:'12-14kg × 3组', reps:'6-10次/臂', note:'预疲劳后上大重量', rest:'45″' },
+    { name:'窄距俯卧撑', detail:'自重 × 3组', reps:'力竭', note:'核心+肘向脚', rest:'60″' },
+    { name:'仰卧哑铃臂屈伸', detail:'7kg/只 × 3组', reps:'15-20次', note:'双臂各一，高次数慢离心', rest:'45″' },
+    { name:'锤式弯举（力竭收尾）', detail:'7kg/只 × 2组', reps:'力竭', note:'做到一个都起不来', rest:'45″' },
+  ]
+};
+
+const SHOULDER = {
+  label: '肩日', color: '#f59e0b',
+  exercises: [
+    { name:'哑铃坐姿推肩（单手交替）', detail:'10-14kg × 4组', reps:'8-10次/侧', note:'单手交替=能用14kg上限。背贴凳，不锁肘', rest:'60″' },
+    { name:'哑铃侧平举', detail:'3-5kg × 4组', reps:'15-20次', note:'肩下沉，肘先于手，离心3秒', rest:'30″' },
+    { name:'哑铃侧平举（力竭）', detail:'3kg × 2组', reps:'力竭', note:'拿最轻片做到抬不起来', rest:'30″' },
+    { name:'哑铃俯身飞鸟', detail:'3-5kg × 3组', reps:'12-15次', note:'身体平行地面，后束孤立', rest:'45″' },
+  ]
+};
+
+const CHEST = {
+  label: '胸日', color: '#ef4444',
+  exercises: [
+    { name:'慢速离心俯卧撑', detail:'自重(~35kg) × 4组', reps:'力竭(8-15)', note:'下3秒→停1秒→爆发推。胸部主力！', rest:'75″' },
+    { name:'哑铃上斜卧推', detail:'7kg/只 × 4组', reps:'18-25次', note:'30°角，高次数+慢离心补偿', rest:'60″' },
+    { name:'哑铃地板飞鸟', detail:'7kg/只 × 3组', reps:'15-20次', note:'肘角不变，画弧', rest:'60″' },
+    { name:'窄距俯卧撑（收尾）', detail:'自重 × 2组', reps:'力竭', note:'菱形手势', rest:'60″' },
+  ]
+};
+
+const REST_DAY = {
+  label: '休息日', color: '#6b7280',
+  exercises: [],
+  note: '散步30分钟，晒太阳。不要跑步，不要有氧。'
+};
+
+// ── DAY MAPPING ──────────────────────────────────
+const WEEK_PLAN = {
+  0: { type:'rest',    data:REST_DAY, meals:REST_MEALS, emoji:'😴', msg:'周日 · 完全休息' },
+  1: { type:'training', data:ARM_A,   meals:TRAINING_MEALS, emoji:'💪', msg:'周一 · 手臂A' },
+  2: { type:'training', data:SHOULDER, meals:TRAINING_MEALS, emoji:'🏋️', msg:'周二 · 肩日' },
+  3: { type:'training', data:ARM_B,   meals:TRAINING_MEALS, emoji:'💪', msg:'周三 · 手臂B' },
+  4: { type:'training', data:CHEST,   meals:TRAINING_MEALS, emoji:'🔥', msg:'周四 · 胸日' },
+  5: { type:'training', data:ARM_C,   meals:TRAINING_MEALS, emoji:'💪', msg:'周五 · 手臂C' },
+  6: { type:'rest',    data:REST_DAY, meals:REST_MEALS, emoji:'😴', msg:'周六 · 完全休息' },
+};
+
+const today = WEEK_PLAN[day];
+
+// ── RENDER ───────────────────────────────────────
+function render() {
+  const app = document.getElementById('app');
+
+  // Header
+  let html = `<div class="header">
+    <div class="date">${dateStr}</div>
+    <div class="day-label" style="color:${today.data.color}">${today.emoji} ${today.msg}</div>
+    <div class="subtitle">${today.type === 'training' ? '19:30 开始训练 · 40分钟 · 13组' : '肌肉在休息中生长'}</div>
+  </div>`;
+
+  // Stats
+  html += `<div class="stats-row">
+    <div class="stat-box"><div class="val">${STATS.weight}</div><div class="lbl">当前体重</div></div>
+    <div class="stat-box"><div class="val">${STATS.target}</div><div class="lbl">目标体重</div></div>
+    <div class="stat-box"><div class="val">${STATS.armGoal}</div><div class="lbl">臂围目标</div></div>
+    <div class="stat-box"><div class="val">${STATS.protein}</div><div class="lbl">今日蛋白</div></div>
+  </div>`;
+
+  // Training section
+  if (today.type === 'training') {
+    html += `<div class="section-title" style="border-left-color:${today.data.color}">今日训练 · ${today.data.label}</div>`;
+    today.data.exercises.forEach((ex, i) => {
+      html += `<div class="exercise-card" style="border-left-color:${today.data.color}">
+        <div class="ex-top"><span class="ex-name">${i+1}. ${ex.name}</span><span class="ex-sets">${ex.detail}</span></div>
+        <div class="ex-detail"><span>🔢 ${ex.reps}</span><span>⏱ 组间${ex.rest}</span></div>
+        <div class="ex-note">💡 ${ex.note}</div>
+      </div>`;
+    });
+  } else {
+    html += `<div class="section-title rest">今日无训练</div>`;
+    html += `<div class="rest-banner">
+      <div class="emoji">${today.emoji}</div>
+      <div class="msg">${today.data.note}</div>
+      <div class="hint">热量目标: ~2260kcal · 蛋白 ~123g · 非训练日减掉练后那顿增肌粉</div>
+    </div>`;
+  }
+
+  // Meal section
+  html += `<div class="section-title meal">今日饮食</div>`;
+  today.meals.forEach(m => {
+    html += `<div class="meal-card">
+      <div class="meal-time">${m.time}</div>
+      <div class="meal-content">
+        <div class="food">${m.food}</div>
+        <div class="macros">${m.macros}</div>
+      </div>
+    </div>`;
+  });
+
+  // Daily note
+  html += `<div class="warning-box">
+    ${today.type === 'training'
+      ? '⚡ 训练后5分钟内喝增肌粉。包里有：牛奶+香蕉+茶叶蛋。今天喝水2.5L+。23:30熄灯。'
+      : '🛌 休息日也是增肌日——肌肉在睡眠和恢复中生长。今天多喝水，别做有氧。23:30熄灯。'}
+  </div>`;
+
+  html += `<div class="footer">Amber 增肌训练计划 · 外胚型 · 手臂优先 · ${dateStr}</div>`;
+
+  app.innerHTML = html;
+}
+
+render();
+</script>
+</body>
+</html>
+HTMLEOF
+
+open /tmp/amber-training-today.html

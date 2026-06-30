@@ -2,6 +2,8 @@
 
 > 使用前请替换 [占位符] 为真实数据。配置越精确，调价建议越可靠。
 
+> 📎 相关链接：[[skills/homestay/homestay-pricing/homestay-pricing-SKILL所属 Skill]] | [[skills/SKILLS-MOC|技能地图]]
+
 ---
 
 ## 一、房源基础信息

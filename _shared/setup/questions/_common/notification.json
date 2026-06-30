@@ -1,0 +1,11 @@
+{
+  "question": "是否配置企业微信群通知？（日报/任务/订单等自动推送到群）",
+  "optional": true,
+  "skipSignals": ["跳过", "不需要", "稍后", "以后再说"],
+  "setupSteps": [
+    { "step": 1, "instruction": "在企业微信里创建一个通知群", "confirm": "创建好了吗？" },
+    { "step": 2, "instruction": "群设置 → 群机器人 → 添加 → 起个名字", "confirm": "添加好机器人了吗？" },
+    { "step": 3, "instruction": "复制Webhook地址发给我", "confirm": "请把链接发给我", "validation": "^https://qyapi\\.weixin\\.qq\\.com/" }
+  ],
+  "testMessage": "🎉 通知配置成功！这是一条测试消息。"
+}

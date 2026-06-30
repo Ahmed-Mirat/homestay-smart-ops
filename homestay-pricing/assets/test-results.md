@@ -142,3 +142,12 @@
 ### 发现3：看板数据更新机制
 **问题**：当前看板为一次性渲染，需支持增量更新（如新竞品数据到达后更新图表）。
 **应对**：dashboard-widget.html已支持通过 `__WIDGET_DATA__` 注入完整数据重新渲染，后续可扩展patch模式。
+
+---
+
+## 相关链接
+- 所属 Skill：[[skills/homestay/homestay-pricing/homestay-pricing-SKILL]]
+- guest 测试结果：[[skills/homestay/homestay-guest/assets/test-results]]
+- 定价配置模板：[[skills/homestay/homestay-pricing/assets/pricing-config-template]]
+- 竞品采集验证：[[skills/homestay/homestay-pricing/assets/competitor-scraping-verification]]
+- 技能地图：[[skills/SKILLS-MOC]]
