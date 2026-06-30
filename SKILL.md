@@ -48,7 +48,7 @@ triggers:
 
 触发词"开始设置"/"初始化"后，系统自动进入安装向导：
 
-1. **预选商户类型**（仅 ${type}）—— 当前套件默认 `propertyType = "${type}"`
+1. **预选商户类型**（仅 apartment）—— 当前套件默认 `propertyType = "apartment"`
 2. **自动环境检查与依赖安装**（无需手动执行命令）—— 调用 `node _shared/scripts/auto-install.js --type homestay`
 3. **5步引导采集信息**（约10分钟）—— 民宿基本信息 / 房型房号 / 设施清单 / 团队成员 / 服务规则
 4. **自动生成知识库** —— 输出至 `_shared/data/knowledge-base/`
@@ -66,7 +66,7 @@ triggers:
 
 当用户说"功能清单"/"我能用什么"/"有什么功能"/"能干什么"时：
 
-1. 读取 `_shared/config.json` 确认 `propertyType = "${type}"`
+1. 读取 `_shared/config.json` 确认 `propertyType = "apartment"`
 2. 检查各功能的激活状态：
    - 通知 webhook 是否配置（`notification.wechatWork.webhookUrl`）
    - 浏览器 profile 是否初始化（`homestay-pricing/.browser-profile/`）
