@@ -1,9 +1,0 @@
-[
-  { "id": "nearestStation", "question": "最近的高铁站/火车站？怎么到民宿？", "example": "杭州东站，打车40分钟约80元", "required": true },
-  { "id": "nearestAirport", "question": "最近的机场？怎么到民宿？", "example": "萧山机场，打车1小时约150元", "required": false },
-  { "id": "selfDrive", "question": "自驾导航到哪里？有什么注意事项？", "example": "导航搜民宿名即可，最后2公里山路弯多慢行", "required": false },
-  { "id": "food", "question": "附近有什么推荐的餐厅或小吃？", "example": "步行5分钟有农家乐，推荐土鸡煲", "required": false },
-  { "id": "attractions", "question": "附近有什么景点或好玩的？", "example": "步行10分钟到溪边，开车15分钟到景区", "required": false },
-  { "id": "tips", "question": "有什么需要特别提醒客人注意的？（安全/气候/出行等）", "example": "山区蚊虫多带驱蚊水，晚上安静请勿喧哗，最后2公里山路弯多慢行", "required": true },
-  { "id": "emergencyInfo", "question": "最近的医院/诊所在哪？报警电话？", "example": "镇卫生院车程5分钟，紧急拨打120/110", "required": true }
-]
