@@ -1,7 +1,0 @@
-[
-  { "id": "name", "question": "诊疗项目名称？", "example": "推拿正骨/针灸/中药调理/艾灸", "required": true },
-  { "id": "category", "question": "所属科室/分类？", "example": "推拿科/针灸科/中药科/理疗科", "required": true },
-  { "id": "duration", "question": "单次时长？", "example": "30分钟/45分钟/60分钟", "required": true },
-  { "id": "description", "question": "简要描述/适应症？", "example": "针对颈椎腰椎问题，适合久坐上班族", "required": false },
-  { "id": "practitioner", "question": "由哪位医师操作？", "example": "张医师/均可", "required": false }
-]
