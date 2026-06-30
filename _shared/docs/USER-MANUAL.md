@@ -1,5 +1,7 @@
 # 民宿智能运营助手 — 内部使用手册（Agent 参考）
 
+> 📎 相关链接：[[skills/homestay/homestay-smart-ops-SKILL|主控 Skill]] | [[skills/SKILLS-MOC|技能地图]]
+
 > 此文档为 Agent 在商户问"有什么功能/能干什么/怎么用"时的内部参考，不直接展示原文给商户。
 > Agent 应阅读相关章节后用对话化口语回答，并根据商户的具体问题精准定位到对应功能。
 

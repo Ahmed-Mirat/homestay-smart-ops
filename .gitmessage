@@ -1,0 +1,22 @@
+# <type>(<scope>): <subject>
+# |<----  Preferably 50 chars or less  ---->|
+#
+# <body>
+# |<------- Try to keep each line 72 chars or less ------->|
+#
+# type:
+#   feat     = 新功能
+#   fix      = 修 bug
+#   docs     = 文档/注释
+#   chore    = 工程化（依赖/配置/样本数据）
+#   refactor = 重构（不改功能）
+#   test     = 测试
+#
+# scope (可选): 模块名或文件名前缀
+#   e.g. huaye-walker, cron-scheduler, yueshe-business, zhuyueyunlu, apt
+#
+# 示例:
+#   feat(huaye-walker): 房租催缴三档话术 + AI个性化生成
+#   fix: 竞品价格采集携程页面解析失败
+#   docs: 更新各模块安装说明
+#

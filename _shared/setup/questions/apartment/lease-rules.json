@@ -1,0 +1,10 @@
+[
+  { "id": "minLeaseTerm", "question": "起租期是多久？", "example": "6个月起租", "required": true },
+  { "id": "depositRatio", "question": "押付方式？", "example": "押一付三", "required": true },
+  { "id": "penaltyRule", "question": "提前退租违约金标准？", "example": "扣一个月押金", "required": true },
+  { "id": "renewalRule", "question": "续租规则？（是否涨租、提前多久通知）", "example": "到期前1个月协商续租，年涨幅≤5%", "required": false },
+  { "id": "rentDueDate", "question": "每月几号交租？", "example": "每月1日", "required": true },
+  { "id": "lateFee", "question": "逾期缴租有滞纳金吗？", "example": "逾期3天后每天加收0.1%", "required": false },
+  { "id": "utilities", "question": "水电燃气怎么算？", "example": "水电按表分摊，燃气自理", "required": true },
+  { "id": "propertyFee", "question": "物业费包含在租金里吗？", "example": "物业费2.5元/㎡/月，单独缴纳", "required": false }
+]

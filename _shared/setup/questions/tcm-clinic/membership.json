@@ -1,0 +1,8 @@
+[
+  { "id": "tierName", "question": "会员卡名称？", "example": "银卡/金卡/钻石卡", "required": true },
+  { "id": "rechargeAmount", "question": "充值金额？", "example": "1000元/3000元/5000元", "required": true },
+  { "id": "discount", "question": "折扣比例？", "example": "9折/8.5折/8折", "required": true },
+  { "id": "bonus", "question": "充值赠送？", "example": "充1000送100/充3000送500", "required": false },
+  { "id": "privileges", "question": "会员专属权益？", "example": "优先预约/生日礼/免费体验新项目", "required": false },
+  { "id": "validityPeriod", "question": "有效期？", "example": "2年/永久有效", "required": true }
+]

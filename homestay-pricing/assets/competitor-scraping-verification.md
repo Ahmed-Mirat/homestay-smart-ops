@@ -2,6 +2,8 @@
 
 > 基于browser-agent实测携程/美团等OTA平台后的真实结论
 
+> 📎 相关链接：[[skills/homestay/homestay-pricing/homestay-pricing-SKILL所属 Skill]] | [[skills/SKILLS-MOC|技能地图]]
+
 ---
 
 ## 一、实测结果汇总

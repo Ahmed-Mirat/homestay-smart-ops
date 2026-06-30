@@ -1,0 +1,33 @@
+{
+  "manager": {
+    "question": "管家/负责人称呼和电话？",
+    "fields": [
+      { "id": "name", "label": "称呼", "example": "张管家", "required": true },
+      { "id": "phone", "label": "电话", "example": "138xxxx1234", "required": true }
+    ]
+  },
+  "emergencyContact": {
+    "question": "24小时紧急联系电话？（水管爆裂等紧急情况）",
+    "fields": [
+      { "id": "phone", "label": "紧急电话", "example": "138xxxx1234", "required": true }
+    ]
+  },
+  "repairStaff": {
+    "question": "有维修师傅吗？名字和电话？",
+    "optional": true,
+    "fields": [
+      { "id": "name", "label": "称呼", "example": "李师傅", "required": true },
+      { "id": "phone", "label": "电话", "example": "139xxxx5678", "required": true },
+      { "id": "specialty", "label": "擅长", "example": "水电/家电/门锁", "required": false }
+    ],
+    "endSignals": ["就这些", "没了"]
+  },
+  "propertyFront": {
+    "question": "物业前台电话？",
+    "optional": true,
+    "fields": [
+      { "id": "phone", "label": "前台电话", "example": "0571-8888xxxx", "required": true },
+      { "id": "hours", "label": "服务时间", "example": "9:00-18:00", "required": false }
+    ]
+  }
+}

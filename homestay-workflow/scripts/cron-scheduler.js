@@ -114,7 +114,50 @@ const SCHEDULED_TASKS = {
   },
 };
 
-// ============ 工具函数 ============
+// ============ 动态任务注册 ============
+
+const DYNAMIC_TASKS_PATH = path.join(DATA_DIR, 'scheduled-tasks.json');
+
+/**
+ * 从 JSON 配置文件加载动态注册的定时任务
+ * Agent 通过编辑此文件来注册/启停任务
+ */
+function loadDynamicTasks() {
+  if (!fs.existsSync(DYNAMIC_TASKS_PATH)) return {};
+  try {
+    const data = JSON.parse(fs.readFileSync(DYNAMIC_TASKS_PATH, 'utf-8'));
+    const tasks = {};
+    (data.dynamic || []).forEach(t => {
+      tasks[t.id] = {
+        name: t.name,
+        schedule: t.schedule,
+        description: t.description,
+        command: t.command,
+        cwd: t.cwd || ROOT_DIR,
+        enabled: t.enabled !== false, // 默认启用
+        dynamic: true,
+      };
+    });
+    return tasks;
+  } catch (e) {
+    console.error('[CRON] 加载动态任务失败:', e.message);
+    return {};
+  }
+}
+
+/**
+ * 合并内置任务和动态任务
+ * 动态任务与内置任务ID冲突时，内置任务优先
+ */
+function mergeTasks() {
+  const dynamic = loadDynamicTasks();
+  const merged = { ...dynamic };  // 动态任务先放入
+  // 内置任务覆盖同ID的动态任务
+  Object.entries(SCHEDULED_TASKS).forEach(([id, task]) => {
+    merged[id] = task;
+  });
+  return merged;
+}
 
 function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
@@ -150,9 +193,11 @@ function appendCronLog(taskId, result) {
  * 执行单个任务
  */
 function executeTask(taskId) {
-  const task = SCHEDULED_TASKS[taskId];
+  const allTasks = mergeTasks();
+  const task = allTasks[taskId];
   if (!task) {
     console.error(`❌ 未知任务: ${taskId}`);
+    console.error(`   可用任务: ${Object.keys(allTasks).join(', ')}`);
     return { success: false, error: '未知任务' };
   }
 
@@ -195,14 +240,27 @@ function executeTask(taskId) {
 // ============ 调度器 ============
 
 function startScheduler() {
+  const allTasks = mergeTasks();
+  const builtin = Object.keys(SCHEDULED_TASKS).length;
+  const dynamic = Object.keys(allTasks).length - builtin;
+
   console.log('\n⏰ 民宿 Cron 调度器已启动');
   console.log('='.repeat(50));
   console.log(`启动时间: ${formatDate()}`);
-  console.log(`任务数量: ${Object.keys(SCHEDULED_TASKS).length}\n`);
+  console.log(`任务数量: ${Object.keys(allTasks).length} (内置${builtin} + 动态${dynamic})\n`);
 
-  for (const [taskId, task] of Object.entries(SCHEDULED_TASKS)) {
+  let enabledCount = 0;
+  let skippedCount = 0;
+  for (const [taskId, task] of Object.entries(allTasks)) {
     if (!cron.validate(task.schedule)) {
       console.error(`⚠️ 无效的Cron表达式: ${task.schedule} (${taskId})`);
+      continue;
+    }
+
+    // 动态任务可通过 enabled=false 暂停
+    if (task.dynamic && task.enabled === false) {
+      console.log(`  ⏸️ ${task.schedule.padEnd(15)} → ${task.name} (已暂停, enabled=false)`);
+      skippedCount++;
       continue;
     }
 
@@ -210,22 +268,46 @@ function startScheduler() {
       executeTask(taskId);
     });
 
-    console.log(`  ✅ ${task.schedule.padEnd(15)} → ${task.name}`);
+    console.log(`  ✅ ${task.schedule.padEnd(15)} → ${task.name}${task.dynamic ? ' [动态]' : ''}`);
+    enabledCount++;
   }
 
-  console.log('\n调度器运行中... (Ctrl+C 停止)\n');
+  console.log(`\n已启用: ${enabledCount} | 已暂停: ${skippedCount}`);
+  console.log('动态任务管理: 编辑 _shared/data/scheduled-tasks.json，重启调度器生效');
+  console.log('调度器运行中... (Ctrl+C 停止)\n');
 }
 
 function listTasks() {
+  const allTasks = mergeTasks();
+  const builtinIds = Object.keys(SCHEDULED_TASKS);
+
   console.log('\n📋 定时任务列表');
   console.log('='.repeat(60));
 
-  for (const [taskId, task] of Object.entries(SCHEDULED_TASKS)) {
-    console.log(`\n  [${taskId}]`);
-    console.log(`    名称: ${task.name}`);
-    console.log(`    时间: ${task.schedule}`);
-    console.log(`    说明: ${task.description}`);
-    if (task.note) console.log(`    备注: ${task.note}`);
+  console.log('\n  ── 内置任务 ──');
+  Object.entries(allTasks)
+    .filter(([id]) => builtinIds.includes(id))
+    .forEach(([taskId, task]) => {
+      console.log(`\n  [${taskId}]`);
+      console.log(`    名称: ${task.name}`);
+      console.log(`    时间: ${task.schedule}`);
+      console.log(`    说明: ${task.description}`);
+      if (task.note) console.log(`    备注: ${task.note}`);
+    });
+
+  const dynamicTasks = Object.entries(allTasks)
+    .filter(([id]) => !builtinIds.includes(id));
+  if (dynamicTasks.length > 0) {
+    console.log('\n  ── 动态任务 (scheduled-tasks.json) ──');
+    dynamicTasks.forEach(([taskId, task]) => {
+      const status = task.enabled !== false ? '✅' : '⏸️';
+      console.log(`\n  ${status} [${taskId}]`);
+      console.log(`    名称: ${task.name}`);
+      console.log(`    时间: ${task.schedule}`);
+      console.log(`    说明: ${task.description}`);
+      console.log(`    启用: ${task.enabled !== false ? '是' : '否'}`);
+    });
+    console.log('\n  💡 动态任务通过编辑 _shared/data/scheduled-tasks.json 管理');
   }
 }
 
@@ -264,8 +346,9 @@ function main() {
       break;
     case 'run':
       if (!arg) {
+        const allIds = Object.keys(mergeTasks());
         console.error('用法: node cron-scheduler.js run <task-id>');
-        console.error('可用任务: ' + Object.keys(SCHEDULED_TASKS).join(', '));
+        console.error('可用任务: ' + allIds.join(', '));
         process.exit(1);
       }
       executeTask(arg);
@@ -283,7 +366,8 @@ function main() {
   node cron-scheduler.js run <id>    手动触发指定任务
   node cron-scheduler.js list        列出所有定时任务
 
-任务ID: ${Object.keys(SCHEDULED_TASKS).join(', ')}
+内置任务: ${Object.keys(SCHEDULED_TASKS).join(', ')}
+动态任务: 编辑 _shared/data/scheduled-tasks.json 注册新任务
       `);
       break;
   }

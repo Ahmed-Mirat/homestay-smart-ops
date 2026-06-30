@@ -110,3 +110,11 @@
 - [x] 第2轮能理解"那个房间"指亲子房
 - [x] 第3轮能引导预订流程（联系前台/平台链接等）
 - [x] 上下文连贯不断裂
+
+---
+
+## 相关链接
+- 所属 Skill：[[skills/homestay/homestay-guest/homestay-guest-SKILL]]
+- 测试结果：[[skills/homestay/homestay-guest/assets/test-results]]
+- 知识库模板：[[skills/homestay/homestay-guest/assets/knowledge-base-template]]
+- 技能地图：[[skills/SKILLS-MOC]]

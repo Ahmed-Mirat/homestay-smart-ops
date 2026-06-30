@@ -1,0 +1,9 @@
+[
+  { "id": "merchantName", "question": "您的店名/品牌名是什么？", "example": "山景民宿/青年公寓/xxx酒店/仁和堂中医", "required": true },
+  { "id": "address", "question": "详细地址是什么？", "example": "杭州市余杭区xxx路xx号", "required": true },
+  { "id": "totalRooms", "question": "一共有多少间房？", "example": "8间", "required": true, "applicableTo": ["homestay", "hotel"] },
+  { "id": "totalUnits", "question": "一共有多少套/间房源？", "example": "30套", "required": true, "applicableTo": ["apartment"] },
+  { "id": "buildingCount", "question": "共几栋楼？", "example": "2栋", "required": false, "applicableTo": ["apartment"] },
+  { "id": "clinicArea", "question": "诊所面积大约多大？", "example": "约200平米", "required": false, "applicableTo": ["tcm-clinic"] },
+  { "id": "operatingHours", "question": "营业时间是几点到几点？", "example": "9:00-21:00", "required": true, "applicableTo": ["tcm-clinic"] }
+]
