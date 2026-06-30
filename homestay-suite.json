@@ -119,9 +119,6 @@
     "note": "playwright 在竞品采集和OTA功能中均需要"
   },
   "setupTypes": [
-    "homestay",
-    "apartment",
-    "hotel",
-    "tcm-clinic"
+    "homestay"
   ]
 }
