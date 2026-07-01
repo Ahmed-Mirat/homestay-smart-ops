@@ -1,0 +1,16 @@
+{
+  "version": "4.1.0",
+  "propertyType": "tcm-clinic",
+  "completed": false,
+  "currentStep": 0,
+  "steps": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false
+  },
+  "startedAt": null,
+  "completedAt": null,
+  "lastModifiedAt": "2026-07-01T08:03:54.343Z"
+}

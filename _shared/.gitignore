@@ -1,0 +1,4 @@
+# 共享层运行时数据（不提交到版本控制）
+browser-profiles/
+data/
+node_modules/

@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: dependency_management
+title: 基于 npm 与 Playwright 的自动化依赖管理
+scope: []
+source_files:
+    - _shared/package.json
+    - _shared/package-lock.json
+    - _shared/scripts/auto-install.js
+    - _shared/scripts/check-env.js
+depends_on: []
+related_to: []

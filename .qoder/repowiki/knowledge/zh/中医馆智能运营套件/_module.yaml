@@ -1,0 +1,13 @@
+schema_version: 1
+module_path: ""
+title: 中医馆智能运营套件
+scope:
+    - README.md
+    - SKILL.md
+    - homestay-guest/
+    - tcm-inventory/
+    - tcm-reception/
+    - _shared/
+source_files: []
+depends_on: []
+related_to: []

@@ -1,0 +1,7 @@
+{
+  "name": "中医馆智能运营套件",
+  "version": "1.1.0",
+  "setupTypes": [
+    "tcm-clinic"
+  ]
+}

@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: frontend_style
+title: 原生 HTML/CSS 内联样式与卡片化设计系统
+scope: []
+source_files:
+    - _shared/assets/workspace-widget.html
+depends_on: []
+related_to: []

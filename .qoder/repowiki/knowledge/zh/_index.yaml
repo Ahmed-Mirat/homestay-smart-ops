@@ -1,0 +1,95 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: Q0DeR-MaG1C-BrAnCh-Fo2-NoN-GiT-Or-No-C0MmIt
+nodes_managed: true
+exported_at: "2026-07-01T08:18:34Z"
+modules:
+    "":
+        dir_name: 中医馆智能运营套件
+        title: 中医馆智能运营套件
+        scope:
+            - README.md
+            - SKILL.md
+            - homestay-guest/
+            - tcm-inventory/
+            - tcm-reception/
+            - _shared/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    build_system:
+        dir_name: 基于 Node.js 的向导式自动化构建与配置系统
+        title: 基于 Node.js 的向导式自动化构建与配置系统
+        scope: []
+        source_files:
+            - _shared/package.json
+            - _shared/scripts/auto-install.js
+            - _shared/scripts/browser-init.js
+            - _shared/setup/config-writer.js
+            - _shared/scripts/check-env.js
+            - _shared/setup/SETUP-WIZARD.md
+        children: []
+        depends_on: []
+        related_to: []
+    configuration_system:
+        dir_name: 多业态向导式配置系统
+        title: 多业态向导式配置系统
+        scope: []
+        source_files:
+            - _shared/config.json
+            - _shared/setup/config-writer.js
+            - _shared/setup/SETUP-WIZARD.md
+            - _shared/scripts/check-env.js
+            - .qoder/repowiki/knowledge/zh/多业态向导式配置系统/configuration_system.md
+        children: []
+        depends_on: []
+        related_to: []
+    dependency_management:
+        dir_name: 基于 npm 与 Playwright 的自动化依赖管理
+        title: 基于 npm 与 Playwright 的自动化依赖管理
+        scope: []
+        source_files:
+            - _shared/package.json
+            - _shared/package-lock.json
+            - _shared/scripts/auto-install.js
+            - _shared/scripts/check-env.js
+        children: []
+        depends_on: []
+        related_to: []
+    error_handling:
+        dir_name: 错误处理与容错机制
+        title: 错误处理与容错机制
+        scope: []
+        source_files:
+            - _shared/scripts/ota-operator.js
+            - _shared/scripts/config-writer.js
+            - _shared/scripts/fix-json.js
+            - _shared/scripts/check-env.js
+            - _shared/scripts/notifier.js
+            - _shared/scripts/auto-install.js
+        children: []
+        depends_on: []
+        related_to: []
+    frontend_style:
+        dir_name: 原生 HTML_CSS 内联样式与卡片化设计系统
+        title: 原生 HTML/CSS 内联样式与卡片化设计系统
+        scope: []
+        source_files:
+            - _shared/assets/workspace-widget.html
+        children: []
+        depends_on: []
+        related_to: []
+    logging_system:
+        dir_name: 日志与通知系统
+        title: 日志与通知系统
+        scope: []
+        source_files:
+            - _shared/scripts/notifier.js
+            - _shared/scripts/ota-operator.js
+            - _shared/scripts/auto-install.js
+            - .qoder/repowiki/knowledge/zh/日志与通知系统/logging_system.md
+        children: []
+        depends_on: []
+        related_to: []

@@ -1,0 +1,28 @@
+{
+  "propertyType": "tcm-clinic",
+  "tcm": {
+    "clinicName": "仁和堂中医馆",
+    "address": "北京市朝阳区建国路88号",
+    "operatingHours": "周一至周六 8:30-18:00",
+    "description": "专注针灸推拿二十年",
+    "treatments": [
+      {
+        "name": "针灸",
+        "category": "针灸科",
+        "duration": 60,
+        "price": 150,
+        "description": "传统针灸疗法，调理经络",
+        "id": "tr-01"
+      }
+    ],
+    "membership": [
+      {
+        "name": "银卡",
+        "threshold": 3000,
+        "bonus": 300,
+        "discount": 0.95,
+        "id": "tier-01"
+      }
+    ]
+  }
+}

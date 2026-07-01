@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: configuration_system
+title: 多业态向导式配置系统
+scope: []
+source_files:
+    - _shared/config.json
+    - _shared/setup/config-writer.js
+    - _shared/setup/SETUP-WIZARD.md
+    - _shared/scripts/check-env.js
+    - .qoder/repowiki/knowledge/zh/多业态向导式配置系统/configuration_system.md
+depends_on: []
+related_to: []

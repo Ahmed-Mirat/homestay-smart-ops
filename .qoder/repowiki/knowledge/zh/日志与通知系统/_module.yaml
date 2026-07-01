@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: logging_system
+title: 日志与通知系统
+scope: []
+source_files:
+    - _shared/scripts/notifier.js
+    - _shared/scripts/ota-operator.js
+    - _shared/scripts/auto-install.js
+    - .qoder/repowiki/knowledge/zh/日志与通知系统/logging_system.md
+depends_on: []
+related_to: []
